@@ -39,15 +39,15 @@
 
 ### General
 
-| tag                                  | description | type        | link                                  |
-| ------------------------------------ | ----------- | ----------- | ------------------------------------- |
-| ```<Identification>```               | ...         | id          | [link](#general-identification)       |
-| ```<ThematiquesGenerales>```         | ....        | code        | [link](#general-thematiquesgenerales) |
-| ```<ResponsableScientifique>```      | ....        | code        |                                       |
-| ```<Collaborations>```               | ....        | date        |                                       |
-| ```<Financements>```                 | ....        | date        |                                       |
-| ```<GouvernanceDeLaBaseDeDonnees>``` | ....        | categorical |                                       |
-| ```<ContactSupplementaire>```        | ....        | categorical |                                       |
+| tag                                  | description | type        | link                                 |
+| ------------------------------------ | ----------- | ----------- | ------------------------------------ |
+| ```<Identification>```               | ...         | id          | [link](#generalidentification)       |
+| ```<ThematiquesGenerales>```         | ....        | code        | [link](#generalthematiquesgenerales) |
+| ```<ResponsableScientifique>```      | ....        | code        |                                      |
+| ```<Collaborations>```               | ....        | date        |                                      |
+| ```<Financements>```                 | ....        | date        |                                      |
+| ```<GouvernanceDeLaBaseDeDonnees>``` | ....        | categorical |                                      |
+| ```<ContactSupplementaire>```        | ....        | categorical |                                      |
 
 
 ### General - Identification
@@ -65,26 +65,26 @@
 
 | tag                                   | description | type                  | link |
 | ------------------------------------- | ----------- | --------------------- | ---- |
-| ``` <DomainesDePathologiesFR>```      | ...         | <value> list          |      |
-| ``` <DomainesDePathologiesEN>```      | ...         | <value> list          |      |
+| ``` <DomainesDePathologiesFR>```      | ...         | ```<value>``` list    |      |
+| ``` <DomainesDePathologiesEN>```      | ...         | ```<value>``` list    |      |
 | ``` <CovidFR>```                      | ...         | categorical (Oui/Non) |      |
 | ``` <CovidEN>```                      | ...         | categorical (Yes/No)  |      |
 | ``` <PathologiesFR>```                | ...         | text                  |      |
 | ``` <PathologiesEN>```                | ...         | text                  |      |
-| ``` <DeterminantsDeSanteFR>```        | ...         | <value> list          |      |
-| ``` <DeterminantsDeSanteEN>```        | ...         | <value> list          |      |
+| ``` <DeterminantsDeSanteFR>```        | ...         | ```<value>``` list    |      |
+| ``` <DeterminantsDeSanteEN>```        | ...         | ```<value>``` list    |      |
 | ``` <DomainesMedicauxPrecisionsFR>``` | ...         | text                  |      |
 | ``` <DomainesMedicauxPrecisionsEN>``` | ...         | text                  |      |
-| ``` <MotsClesFR>```                   | ...         | <value> list          |      |
-| ``` <MotsClesEN>```                   | ...         | <value> list          |      |
+| ``` <MotsClesFR>```                   | ...         | ```<value>``` list    |      |
+| ``` <MotsClesEN>```                   | ...         | ```<value>``` list    |      |
 
 
 ### General - ResponsableScientifique
 
-| tag                                | description | type         | link |
-| ---------------------------------- | ----------- | ------------ | ---- |
-| ``` <ResponsableScientifiqueFR>``` | ...         | <value> list |      |
-| ``` <ResponsableScientifiqueEN>``` | ...         | <value> list |      |
+| tag                                | description | type               | link |
+| ---------------------------------- | ----------- | ------------------ | ---- |
+| ``` <ResponsableScientifiqueFR>``` | ...         | ```<value>``` list |      |
+| ``` <ResponsableScientifiqueEN>``` | ...         | ```<value>``` list |      |
 
 
 #### General - ResponsableScientifique - ResponsableScientifiqueFR
@@ -114,8 +114,13 @@
 
 ### General - Collaborations
 
-| tag                                | description | type         | link |
-| ---------------------------------- | ----------- | ------------ | ---- |
-| ``` <ResponsableScientifiqueFR>``` | ...         | <value> list |      |
-| ``` <ResponsableScientifiqueEN>``` | ...         | <value> list |      |
+| tag                                        | description | type | link |
+| ------------------------------------------ | ----------- | ---- | ---- |
+| ``` <PartenariatsEtReseauxFR>```           | ...         | ?    |      |
+| ``` <PartenariatsEtReseauxFR>```           | ...         | ?    |      |
+| ``` <PartenariatsEtReseauxPrecisionsFR>``` | ...         | ?    |      |
+| ``` <PartenariatsEtReseauxPrecisionsEN>``` | ...         | ?    |      |
+| ``` <AutresCollaborationsFR>```            | ...         | ?    |      |
+| ``` <AutresCollaborationsEN>```            | ...         | ?    |      |
+
 
