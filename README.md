@@ -13,12 +13,6 @@
 | ```<ValorisationEtAcces>``` | ....                                                  | ....                 |
 
 
-
-
-<details>
-<summary> Metadonnées
- </summary>
-
 ### Metadonnées  
 
 | tag                                 | description                                | type        | link |
@@ -37,11 +31,7 @@
 | ```<UrlFicheEN>```                  | ....                                       | url         |      |
 | ```<UrlXml>```                      | ....                                       | url         |      |
 
-</details>
 
-
-<details>
-<summary>General</summary>
 
 ### General
 
@@ -173,24 +163,103 @@
 | ``` <ContactSupplementaireEN>``` | ...         | ```<value>``` list |      |
 
 
-##### General - GouvernanceDeLaBaseDeDonnees - OrganisationEN
+##### General - ContactSupplementaire - ContactSupplementaireFR
 
-| tag                         | description | type | link |
-| --------------------------- | ----------- | ---- | ---- |
-| ``` <Organisation>```       | ...         | text |      |
-| ``` <StatutOrganisation>``` | ...         | text |      |
+| tag                            | description | type | link |
+| ------------------------------ | ----------- | ---- | ---- |
+| ``` <ContactSupplementaire>``` | ...         | ?    |      |
+| ``` <PrenomContact>```         | ...         | ?    |      |
+| ``` <AdresseContact>```        | ...         | ?    |      |
+| ``` <TelephoneContact>```      | ...         | ?    |      |
+| ``` <MailContact>```           | ...         | ?    |      |
+| ``` <LaboratoireContact>```    | ...         | ?    |      |
+| ``` <OrganismeContact>```      | ...         | ?    |      |
 
-##### General - GouvernanceDeLaBaseDeDonnees - OrganisationEN
+##### General - ContactSupplementaire - ContactSupplementaireEN
 
-| tag                         | description | type | link |
-| --------------------------- | ----------- | ---- | ---- |
-| ``` <Organisation>```       | ...         | text |      |
-| ``` <StatutOrganisation>``` | ...         | text |      |
+| tag                            | description | type | link |
+| ------------------------------ | ----------- | ---- | ---- |
+| ``` <ContactSupplementaire>``` | ...         | ?    |      |
+| ``` <PrenomContact>```         | ...         | ?    |      |
+| ``` <AdresseContact>```        | ...         | ?    |      |
+| ``` <TelephoneContact>```      | ...         | ?    |      |
+| ``` <MailContact>```           | ...         | ?    |      |
+| ``` <LaboratoireContact>```    | ...         | ?    |      |
+| ``` <OrganismeContact>```      | ...         | ?    |      |
 
-</details>
+
+### Caracteristiques
+
+| tag                                | description | type | link |
+| ---------------------------------- | ----------- | ---- | ---- |
+| ``` <TypeDeBaseDeDonnees>```       | ...         | tag  |      |
+| ``` <ObjectifDeLaBaseDeDonnees>``` | ...         | ?    |      |
+| ``` <TypeDePopulation>```          | ...         | ?    |      |
 
 
+#### Caracteristiques - TypeDeBaseDeDonnees
 
+| tag                                        | description | type               | detail |
+| ------------------------------------------ | ----------- | ------------------ | ------ |
+| ``` <TypeDeBaseFR>```                      | ...         | ```<value>``` list |        |
+| ``` <TypeDeBaseEN>```                      | ...         | ```<value>``` list |        |
+| ``` <TypeDeBaseAutreFR>```                 | ...         | ?                  |        |
+| ``` <TypeDeBaseAutreEN>```                 | ...         | ?                  |        |
+| ``` <TypeEnqueteFR>```                     | ...         | ```<value>``` list |        |
+| ``` <TypeEnqueteEN>```                     | ...         | ```<value>``` list |        |
+| ``` <RecrutementParIntermediaireFR>```     | ...         | ```<value>``` list |        |
+| ``` <RecrutementParIntermediaireEN>```     | ...         | ```<value>``` list |        |
+| ``` <BaseOuRegistrePrecisionsFR>```        | ...         | ?                  |        |
+| ``` <BaseOuRegistrePrecisionsEN>```        | ...         | ?                  |        |
+| ``` <RecrutementSurBaseFR>```              | ...         | ```<value>``` list |        |
+| ``` <RecrutementSurBaseEN>```              | ...         | ```<value>``` list |        |
+| ``` <EnqueteInterventionnelleFR>```        | ...         | ?                  |        |
+| ``` <EnqueteInterventionnelleEN>```        | ...         | ?                  |        |
+| ``` <InterventionnellePrecisionsFR>```     | ...         | ```<value>``` list |        |
+| ``` <InterventionnellePrecisionsEN>```     | ...         | ```<value>``` list |        |
+| ``` <ModaliteConstitutionEchantillonFR>``` | ...         | text               |        |
+| ``` <ModaliteConstitutionEchantillonEN>``` | ...         | text               |        |
+
+
+#### Caracteristiques - ObjectifDeLaBaseDeDonnees
+
+| tag                          | description | type | detail |
+| ---------------------------- | ----------- | ---- | ------ |
+| ``` <ObjectifGeneralFR>```   | ...         | text |        |
+| ``` <ObjectifGeneralEN>```   | ...         | text |        |
+| ``` <CriteresInclusionFR>``` | ...         | text |        |
+| ``` <CriteresInclusionEN>``` | ...         | text |        |
+
+#### Caracteristiques - TypeDePopulation
+
+| tag                                    | description | type               | detail |
+| -------------------------------------- | ----------- | ------------------ | ------ |
+| ``` <TranchesAgeFR>```                 | ...         | ```<value>``` list |        |
+| ``` <TranchesAgeEN>```                 | ...         | ```<value>``` list |        |
+| ``` <PopulationFR>```                  | ...         | ```<value>``` list |        |
+| ``` <PopulationEN>```                  | ...         | ```<value>``` list |        |
+| ``` <PopulationCimFR>```               | ...         | ```<value>``` list |        |
+| ``` <PopulationCimEN>```               | ...         | ```<value>``` list |        |
+| ``` <SexeFR>```                        | ...         | ```<value>``` list |        |
+| ``` <SexeEN>```                        | ...         | ```<value>``` list |        |
+| ``` <ChampGeographiqueFR>```           | ...         | ```<value>``` list |        |
+| ``` <ChampGeographiqueEN>```           | ...         | ```<value>``` list |        |
+| ``` <RegionsConcerneesFR>```           | ...         | ```<value>``` list |        |
+| ``` <RegionsConcerneesEN>```           | ...         | ```<value>``` list |        |
+| ``` <ChampGeographiquePrecisionsFR>``` | ...         | text               |        |
+| ``` <ChampGeographiquePrecisionsEN>``` | ...         | text               |        |
+
+##### Caracteristiques - TypeDePopulation - PopulationCimFR
+
+| tag          | description | type | detail |
+| ------------ | ----------- | ---- | ------ |
+| ``` <Cim>``` | ...         | text |        |
+
+##### Caracteristiques - TypeDePopulation - PopulationCimEN
+
+| tag          | description | type | detail |
+| ------------ | ----------- | ---- | ------ |
+| ``` <Cim>``` | ...         | text |        |
 
 
 
