@@ -50,7 +50,7 @@
 | ```<ContactSupplementaire>```        | ....        | categorical |                                      |
 
 
-### General - Identification
+#### General - Identification
 | tag                   | description | type | link |
 | --------------------- | ----------- | ---- | ---- |
 | ``` <NomFR>```        | ...         | text |      |
@@ -61,7 +61,7 @@
 | ``` <NumeroCnilEN>``` | ...         | text |      |
 
 
-### General - ThematiquesGenerales
+#### General - ThematiquesGenerales
 
 | tag                                   | description | type                  | link |
 | ------------------------------------- | ----------- | --------------------- | ---- |
@@ -79,7 +79,7 @@
 | ``` <MotsClesEN>```                   | ...         | ```<value>``` list    |      |
 
 
-### General - ResponsableScientifique
+#### General - ResponsableScientifique
 
 | tag                                | description | type               | link |
 | ---------------------------------- | ----------- | ------------------ | ---- |
@@ -87,7 +87,7 @@
 | ``` <ResponsableScientifiqueEN>``` | ...         | ```<value>``` list |      |
 
 
-#### General - ResponsableScientifique - ResponsableScientifiqueFR
+##### General - ResponsableScientifique - ResponsableScientifiqueFR
 
 | tag                             | description | type | link |
 | ------------------------------- | ----------- | ---- | ---- |
@@ -99,7 +99,7 @@
 | ``` <LaboratoireResponsable>``` | ...         | text |      |
 | ``` <OrganismeResponsable>```   | ...         | text |      |
 
-#### General - ResponsableScientifique - ResponsableScientifiqueEN
+##### General - ResponsableScientifique - ResponsableScientifiqueEN
 
 | tag                             | description | type | link |
 | ------------------------------- | ----------- | ---- | ---- |
@@ -112,7 +112,7 @@
 | ``` <OrganismeResponsable>```   | ...         | text |      |
 
 
-### General - Collaborations
+#### General - Collaborations
 
 | tag                                        | description | type | link |
 | ------------------------------------------ | ----------- | ---- | ---- |
