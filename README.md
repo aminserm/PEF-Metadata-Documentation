@@ -193,8 +193,8 @@
 | tag                                | description | type | detail |
 | ---------------------------------- | ----------- | ---- | ------ |
 | ``` <TypeDeBaseDeDonnees>```       | ...         | tag  |        |
-| ``` <ObjectifDeLaBaseDeDonnees>``` | ...         | ?    |        |
-| ``` <TypeDePopulation>```          | ...         | ?    |        |
+| ``` <ObjectifDeLaBaseDeDonnees>``` | ...         | tag  |        |
+| ``` <TypeDePopulation>```          | ...         | tag  |        |
 
 
 #### Caracteristiques - TypeDeBaseDeDonnees
@@ -261,5 +261,13 @@
 | ------------ | ----------- | ---- | ------ |
 | ``` <Cim>``` | ...         | text |        |
 
+### Collecte
+
+| tag                              | description | type | detail |
+| -------------------------------- | ----------- | ---- | ------ |
+| ``` <Dates>```                   | ...         | tag  |        |
+| ``` <TailleDeLaBaseDeDonnees>``` | ...         | tag  |        |
+| ``` <Donnees>```                 | ...         | tag  |        |
+| ``` <Modalites>```               | ...         | tag  |        |
 
 
