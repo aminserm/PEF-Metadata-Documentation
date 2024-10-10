@@ -1,12 +1,6 @@
 # Portail Epidemiologie France (PEF) - XML Export Documentation
 
 
-## Root
-
-| tag                                          | description                     | link                                     |
-| -------------------------------------------- | ------------------------------- | ---------------------------------------- |
-| ```<?xml version="1.0" encoding="UTF-8"?>``` | Encoding of the XML file        |                                          |
-| ```<FichePortailEpidemiologieFrance> ```     | Entry point of the PEF document | [link](#FichePortailEpidemiologieFrance) |
 
 ## FichePortailEpidemiologieFrance
 
@@ -18,7 +12,14 @@
 | ```<Collecte>```            | ....                                                  | ....                 |
 | ```<ValorisationEtAcces>``` | ....                                                  | ....                 |
 
-### Metadonnées 
+
+
+
+<details>
+<summary> Metadonnées
+ </summary>
+
+### Metadonnées  
 
 | tag                                 | description                                | type        | link |
 | ----------------------------------- | ------------------------------------------ | ----------- | ---- |
@@ -36,18 +37,22 @@
 | ```<UrlFicheEN>```                  | ....                                       | url         |      |
 | ```<UrlXml>```                      | ....                                       | url         |      |
 
+</details>
+
+
+
 
 ### General
 
-| tag                                  | description | type        | link                                 |
-| ------------------------------------ | ----------- | ----------- | ------------------------------------ |
-| ```<Identification>```               | ...         | id          | [link](#generalidentification)       |
-| ```<ThematiquesGenerales>```         | ....        | code        | [link](#generalthematiquesgenerales) |
-| ```<ResponsableScientifique>```      | ....        | code        |                                      |
-| ```<Collaborations>```               | ....        | date        |                                      |
-| ```<Financements>```                 | ....        | date        |                                      |
-| ```<GouvernanceDeLaBaseDeDonnees>``` | ....        | categorical |                                      |
-| ```<ContactSupplementaire>```        | ....        | categorical |                                      |
+| tag                                  | description | type        | link                                       |
+| ------------------------------------ | ----------- | ----------- | ------------------------------------------ |
+| ```<Identification>```               | ...         | id          | [link](#general---identification)          |
+| ```<ThematiquesGenerales>```         | ....        | code        | [link](#general---thematiquesgenerales)    |
+| ```<ResponsableScientifique>```      | ....        | code        | [link](#general---responsablescientifique) |
+| ```<Collaborations>```               | ....        | date        | [link](#general---collaborations)          |
+| ```<Financements>```                 | ....        | date        |                                            |
+| ```<GouvernanceDeLaBaseDeDonnees>``` | ....        | categorical |                                            |
+| ```<ContactSupplementaire>```        | ....        | categorical |                                            |
 
 
 #### General - Identification
@@ -122,5 +127,66 @@
 | ``` <PartenariatsEtReseauxPrecisionsEN>``` | ...         | ?    |      |
 | ``` <AutresCollaborationsFR>```            | ...         | ?    |      |
 | ``` <AutresCollaborationsEN>```            | ...         | ?    |      |
+
+
+#### General - Financements
+
+| tag                               | description | type | link |
+| --------------------------------- | ----------- | ---- | ---- |
+| ``` <TypeDeFinancementsFR>```     | ...         | ?    |      |
+| ``` <TypeDeFinancementsEN>```     | ...         | ?    |      |
+| ``` <FinancementsPrecisionsFR>``` | ...         | ?    |      |
+| ``` <FinancementsPrecisionsEN>``` | ...         | ?    |      |
+
+#### General - GouvernanceDeLaBaseDeDonnees
+
+| tag                                   | description | type                  | link |
+| ------------------------------------- | ----------- | --------------------- | ---- |
+| ``` <OrganisationFR>```               | ...         | ```<value>``` list    |      |
+| ``` <OrganisationEN>```               | ...         | ```<value>``` list    |      |
+| ``` <ExistenceDeComiteFR>```          | ...         | categorical (Oui/Non) |      |
+| ``` <ExistenceDeComiteEN>```          | ...         | categorical (Yes/No)  |      |
+| ``` <LabellisationsEtExpertisesFR>``` | ...         | ?                     |      |
+| ``` <LabellisationsEtExpertisesEN>``` | ...         | ?                     |      |
+
+##### General - GouvernanceDeLaBaseDeDonnees - OrganisationFR
+
+| tag                         | description | type | link |
+| --------------------------- | ----------- | ---- | ---- |
+| ``` <Organisation>```       | ...         | text |      |
+| ``` <StatutOrganisation>``` | ...         | text |      |
+
+##### General - GouvernanceDeLaBaseDeDonnees - OrganisationEN
+
+| tag                         | description | type | link |
+| --------------------------- | ----------- | ---- | ---- |
+| ``` <Organisation>```       | ...         | text |      |
+| ``` <StatutOrganisation>``` | ...         | text |      |
+
+
+#### General - ContactSupplementaire
+
+| tag                              | description | type               | link |
+| -------------------------------- | ----------- | ------------------ | ---- |
+| ``` <ContactSupplementaireFR>``` | ...         | ```<value>``` list |      |
+| ``` <ContactSupplementaireEN>``` | ...         | ```<value>``` list |      |
+
+
+##### General - GouvernanceDeLaBaseDeDonnees - OrganisationEN
+
+| tag                         | description | type | link |
+| --------------------------- | ----------- | ---- | ---- |
+| ``` <Organisation>```       | ...         | text |      |
+| ``` <StatutOrganisation>``` | ...         | text |      |
+
+##### General - GouvernanceDeLaBaseDeDonnees - OrganisationEN
+
+| tag                         | description | type | link |
+| --------------------------- | ----------- | ---- | ---- |
+| ``` <Organisation>```       | ...         | text |      |
+| ``` <StatutOrganisation>``` | ...         | text |      |
+
+
+
 
 
