@@ -40,7 +40,8 @@
 </details>
 
 
-
+<details>
+<summary>General</summary>
 
 ### General
 
@@ -185,6 +186,9 @@
 | --------------------------- | ----------- | ---- | ---- |
 | ``` <Organisation>```       | ...         | text |      |
 | ``` <StatutOrganisation>``` | ...         | text |      |
+
+</details>
+
 
 
 
