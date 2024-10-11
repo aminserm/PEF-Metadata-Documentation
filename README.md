@@ -1,5 +1,11 @@
 # Portail Epidemiologie France (PEF) - XML Export Documentation
 
+This document provides a detailed description of the XML metadata export of the [Portail Epidemiologie France (PEF) catalog](https://epidemiologie-france.aviesan.fr/epidemiologie-france/catalogue).
+
+PEF website provides a glossary of the different metadata sections, in french: [epidemiologie-france.aviesan.fr/epidemiologie-france/ressources/glossaire](https://epidemiologie-france.aviesan.fr/epidemiologie-france/ressources/glossaire).
+
+Other metadata descriptions were inferred from the metadata editor accessible by authenticated users.
+
 
 
 ## FichePortailEpidemiologieFrance
@@ -47,14 +53,14 @@
 
 
 #### General - Identification
-| tag                   | description | type | detail |
-| --------------------- | ----------- | ---- | ------ |
-| ``` <NomFR>```        | ...         | text |        |
-| ``` <NomEN>```        | ...         | text |        |
-| ``` <AcronymeFR>```   | ...         | text |        |
-| ``` <AcronymeEN>```   | ...         | text |        |
-| ``` <NumeroCnilFR>``` | ...         | text |        |
-| ``` <NumeroCnilEN>``` | ...         | text |        |
+| tag                   | description                                                                                       | type | detail |
+| --------------------- | ------------------------------------------------------------------------------------------------- | ---- | ------ |
+| ``` <NomFR>```        | The full, precise name or title of the database, survey, or project                               | text |        |
+| ``` <NomEN>```        | The full, precise name or title of the database, survey, or project                               | text |        |
+| ``` <AcronymeFR>```   | Abbreviation or Acronym                                                                           | text |        |
+| ``` <AcronymeEN>```   | Abbreviation or Acronym                                                                           | text |        |
+| ``` <NumeroCnilFR>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc  | text |        |
+| ``` <NumeroCnilEN>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc. | text |        |
 
 
 #### General - ThematiquesGenerales
