@@ -65,20 +65,20 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### General - ThematiquesGenerales
 
-| tag                                  | description                                                                                                                                                                                 | type                  | detail |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------ |
-| ```<DomainesDePathologiesFR>```      | ...                                                                                                                                                                                         | ```<value>``` list    |        |
-| ```<DomainesDePathologiesEN>```      | ...                                                                                                                                                                                         | ```<value>``` list    |        |
-| ```<CovidFR>```                      | Study related to Covid-19                                                                                                                                                                   | categorical (Oui/Non) |        |
-| ```<CovidEN>```                      | ...                                                                                                                                                                                         | categorical (Yes/No)  |        |
-| ```<PathologiesFR>```                | Study related to Covid-19                                                                                                                                                                   | text                  |        |
-| ```<PathologiesEN>```                | ...                                                                                                                                                                                         | text                  |        |
-| ```<DeterminantsDeSanteFR>```        | ...                                                                                                                                                                                         | ```<value>``` list    |        |
-| ```<DeterminantsDeSanteEN>```        | ...                                                                                                                                                                                         | ```<value>``` list    |        |
-| ```<DomainesMedicauxPrecisionsFR>``` | ...                                                                                                                                                                                         | text                  |        |
-| ```<DomainesMedicauxPrecisionsEN>``` | ...                                                                                                                                                                                         | text                  |        |
-| ```<MotsClesFR>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database. | ```<value>``` list    |        |
-| ```<MotsClesEN>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database. | ```<value>``` list    |        |
+| tag                                  | description                                                                                                                                                                                                                                | type                  | detail |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | ------ |
+| ```<DomainesDePathologiesFR>```      | Différents domaines médicaux abordés dans la base de données.                                                                                                                                                                              | ```<value>``` list    |        |
+| ```<DomainesDePathologiesEN>```      | Different medical fields addressed in the database.                                                                                                                                                                                        | ```<value>```  list   |        |
+| ```<CovidFR>```                      | Etude en lien avec la Covid-19                                                                                                                                                                                                             | categorical (Oui/Non) |        |
+| ```<CovidEN>```                      | Study related to Covid-19                                                                                                                                                                                                                  | categorical (Yes/No)  |        |
+| ```<PathologiesFR>```                | Nom(s) de la (des) pathologie(s) ou du (des) problème(s) de santé qui sont identifiés dans la base de données                                                                                                                              | text                  |        |
+| ```<PathologiesEN>```                | Name(s) of the pathology(ies) or health problem(s) identified in the database.                                                                                                                                                             | text                  |        |
+| ```<DeterminantsDeSanteFR>```        | Déterminants de santé étudiés dans la base de données.                                                                                                                                                                                     | ```<value>``` list    |        |
+| ```<DeterminantsDeSanteEN>```        | Health determinants studied in the database.                                                                                                                                                                                               | ```<value>``` list    |        |
+| ```<DomainesMedicauxPrecisionsFR>``` | Thématique(s) (domaines médicaux ou déterminants de santé) concernant votre base de données et ne figurant pas dans la liste proposée plus haut.                                                                                           | text                  |        |
+| ```<DomainesMedicauxPrecisionsEN>``` | Theme(s) (medical fields or health determinants) related to your database that are not included in the list provided above.                                                                                                                | text                  |        |
+| ```<MotsClesFR>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database.                                                | ```<value>``` list    |        |
+| ```<MotsClesEN>```                   | Mots ou expressions qui ont une importance particulière pour le référencement et la caractérisation de la base de données ou de l'enquête. Les mots-clés contribuent à améliorer le positionnement et la visibilité de la base de données. | ```<value>``` list    |        |
 
 
 #### General - ResponsableScientifique
@@ -117,8 +117,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### General - Collaborations
 
-| tag                                        | description                                                                                                          | type                  |
-| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| tag                                       | description                                                                                                          | type                  |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | ```<PartenariatsEtReseauxFR>```           | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Oui/Non) |
 | ```<PartenariatsEtReseauxFR>```           | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Yes/No)  |
 | ```<PartenariatsEtReseauxPrecisionsFR>``` | Names of the relevant projects, networks, consortia.                                                                 | text                  |
@@ -129,8 +129,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### General - Financements
 
-| tag                               | description                                                                                                                          | type                               |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| tag                              | description                                                                                                                          | type                               |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
 | ```<TypeDeFinancementsFR>```     | Status of the funding sources.                                                                                                       | categorical (Public/Privé/Mixte)   |
 | ```<TypeDeFinancementsEN>```     | Status of the funding sources.                                                                                                       | categorical (Public/Private/Mixed) |
 | ```<FinancementsPrecisionsFR>``` | Funding sources that enabled the establishment of the database, as well as those contributing to its maintenance and/or development. | text                               |
@@ -138,8 +138,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### General - GouvernanceDeLaBaseDeDonnees
 
-| tag                                   | description                                                                                                                                                            | type                  | detail                                                           |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ---------------------------------------------------------------- |
+| tag                                  | description                                                                                                                                                            | type                  | detail                                                           |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | ```<OrganisationFR>```               | Nom et statut de l’institution qui est le porteur et le responsable - au sens juridique - de la base de données ainsi que le statut correspondant à cette institution. | ```<value>``` list    | [link](#general---gouvernancedelabasededonnees---organisationfr) |
 | ```<OrganisationEN>```               | Name and status of the institution that is the holder and legally responsible for the database, as well as the corresponding status of this institution.               | ```<value>``` list    | [link](#general---gouvernancedelabasededonnees---organisationen) |
 | ```<ExistenceDeComiteFR>```          | Existence de comités scientifique ou de pilotage                                                                                                                       | categorical (Oui/Non) |                                                                  |
@@ -149,31 +149,31 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 ##### General - GouvernanceDeLaBaseDeDonnees - OrganisationFR
 
-| tag                         | description                                 | type                                             |
-| --------------------------- | ------------------------------------------- | ------------------------------------------------ |
+| tag                        | description                                 | type                                             |
+| -------------------------- | ------------------------------------------- | ------------------------------------------------ |
 | ```<Organisation>```       | Organisation(s) responsable(s) ou promoteur | text                                             |
 | ```<StatutOrganisation>``` | Statut de l’organisation                    | categorical (Secteur Public/Secteur Privé/Mixte) |
 
 ##### General - GouvernanceDeLaBaseDeDonnees - OrganisationEN
 
-| tag                         | description                             | type                                             |
-| --------------------------- | --------------------------------------- | ------------------------------------------------ |
+| tag                        | description                             | type                                             |
+| -------------------------- | --------------------------------------- | ------------------------------------------------ |
 | ```<Organisation>```       | Responsible organization(s) or promoter | text                                             |
 | ```<StatutOrganisation>``` | Status of the organisation              | categorical (Public Sector/Private Sector/Mixed) |
 
 
 #### General - ContactSupplementaire
 
-| tag                              | description | type               | detail |
-| -------------------------------- | ----------- | ------------------ | ------ |
+| tag                             | description | type               | detail |
+| ------------------------------- | ----------- | ------------------ | ------ |
 | ```<ContactSupplementaireFR>``` | ...         | ```<value>``` list |        |
 | ```<ContactSupplementaireEN>``` | ...         | ```<value>``` list |        |
 
 
 ##### General - ContactSupplementaire - ContactSupplementaireFR
 
-| tag                            | description | type | detail |
-| ------------------------------ | ----------- | ---- | ------ |
+| tag                           | description | type | detail |
+| ----------------------------- | ----------- | ---- | ------ |
 | ```<ContactSupplementaire>``` | ...         | ?    |        |
 | ```<PrenomContact>```         | ...         | ?    |        |
 | ```<AdresseContact>```        | ...         | ?    |        |
@@ -184,8 +184,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 ##### General - ContactSupplementaire - ContactSupplementaireEN
 
-| tag                            | description | type | detail |
-| ------------------------------ | ----------- | ---- | ------ |
+| tag                           | description | type | detail |
+| ----------------------------- | ----------- | ---- | ------ |
 | ```<ContactSupplementaire>``` | ...         | ?    |        |
 | ```<PrenomContact>```         | ...         | ?    |        |
 | ```<AdresseContact>```        | ...         | ?    |        |
@@ -197,8 +197,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 ### Caracteristiques
 
-| tag                                | description | type | detail |
-| ---------------------------------- | ----------- | ---- | ------ |
+| tag                               | description | type | detail |
+| --------------------------------- | ----------- | ---- | ------ |
 | ```<TypeDeBaseDeDonnees>```       | ...         | tag  |        |
 | ```<ObjectifDeLaBaseDeDonnees>``` | ...         | tag  |        |
 | ```<TypeDePopulation>```          | ...         | tag  |        |
@@ -206,8 +206,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### Caracteristiques - TypeDeBaseDeDonnees
 
-| tag                                        | description | type               | detail |
-| ------------------------------------------ | ----------- | ------------------ | ------ |
+| tag                                       | description | type               | detail |
+| ----------------------------------------- | ----------- | ------------------ | ------ |
 | ```<TypeDeBaseFR>```                      | ...         | ```<value>``` list |        |
 | ```<TypeDeBaseEN>```                      | ...         | ```<value>``` list |        |
 | ```<TypeDeBaseAutreFR>```                 | ...         | ?                  |        |
@@ -230,8 +230,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### Caracteristiques - ObjectifDeLaBaseDeDonnees
 
-| tag                          | description | type | detail |
-| ---------------------------- | ----------- | ---- | ------ |
+| tag                         | description | type | detail |
+| --------------------------- | ----------- | ---- | ------ |
 | ```<ObjectifGeneralFR>```   | ...         | text |        |
 | ```<ObjectifGeneralEN>```   | ...         | text |        |
 | ```<CriteresInclusionFR>``` | ...         | text |        |
@@ -239,8 +239,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### Caracteristiques - TypeDePopulation
 
-| tag                                    | description | type               | detail |
-| -------------------------------------- | ----------- | ------------------ | ------ |
+| tag                                   | description | type               | detail |
+| ------------------------------------- | ----------- | ------------------ | ------ |
 | ```<TranchesAgeFR>```                 | ...         | ```<value>``` list |        |
 | ```<TranchesAgeEN>```                 | ...         | ```<value>``` list |        |
 | ```<PopulationFR>```                  | ...         | ```<value>``` list |        |
@@ -258,20 +258,20 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 ##### Caracteristiques - TypeDePopulation - PopulationCimFR
 
-| tag          | description | type | detail |
-| ------------ | ----------- | ---- | ------ |
+| tag         | description | type | detail |
+| ----------- | ----------- | ---- | ------ |
 | ```<Cim>``` | ...         | text |        |
 
 ##### Caracteristiques - TypeDePopulation - PopulationCimEN
 
-| tag          | description | type | detail |
-| ------------ | ----------- | ---- | ------ |
+| tag         | description | type | detail |
+| ----------- | ----------- | ---- | ------ |
 | ```<Cim>``` | ...         | text |        |
 
 ### Collecte
 
-| tag                              | description | type | detail |
-| -------------------------------- | ----------- | ---- | ------ |
+| tag                             | description | type | detail |
+| ------------------------------- | ----------- | ---- | ------ |
 | ```<Dates>```                   | ...         | tag  |        |
 | ```<TailleDeLaBaseDeDonnees>``` | ...         | tag  |        |
 | ```<Donnees>```                 | ...         | tag  |        |
@@ -279,8 +279,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### Collecte - Dates
 
-| tag                            | description | type | detail |
-| ------------------------------ | ----------- | ---- | ------ |
+| tag                           | description | type | detail |
+| ----------------------------- | ----------- | ---- | ------ |
 | ```<AnneePremierRecueilFR>``` | ...         | text |        |
 | ```<AnneePremierRecueilEN>``` | ...         | text |        |
 | ```<AnneeDernierRecueilFR>``` | ...         | text |        |
@@ -288,8 +288,8 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### Collecte - TailleDeLaBaseDeDonnees
 
-| tag                         | description | type               | detail |
-| --------------------------- | ----------- | ------------------ | ------ |
+| tag                        | description | type               | detail |
+| -------------------------- | ----------- | ------------------ | ------ |
 | ```<TailleBaseFR>```       | ...         | ```<value>``` list |        |
 | ```<TailleBaseEN>```       | ...         | ```<value>``` list |        |
 | ```<TailleBaseDetailFR>``` | ...         | text               |        |
@@ -299,16 +299,16 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 | tag                                         | description | type               | detail |
 | ------------------------------------------- | ----------- | ------------------ | ------ |
-| ```<EnActiviteFR>```                       | ...         | ```<value>``` list |        |
-| ```<EnActiviteEN>```                       | ...         | ```<value>``` list |        |
-| ```<TypeDonneesRecueilliesFR>```           | ...         | ```<value>``` list |        |
-| ```<TypeDonneesRecueilliesEN>```           | ...         | ```<value>``` list |        |
-| ```<DonneesCliniquesFR>```                 | ...         | ```<value>``` list |        |
-| ```<DonneesCliniquesEN>```                 | ...         | ```<value>``` list |        |
-| ```<DonneesCliniquesPrecisionsFR>```       | ...         | ?                  |        |
-| ```<DonneesCliniquesPrecisionsEN>```       | ...         | ?                  |        |
-| ```<DonneesDeclarativesFR>```              | ...         | ```<value>``` list |        |
-| ```<DonneesDeclarativesEN>```              | ...         | ```<value>``` list |        |
+| ```<EnActiviteFR>```                        | ...         | ```<value>``` list |        |
+| ```<EnActiviteEN>```                        | ...         | ```<value>``` list |        |
+| ```<TypeDonneesRecueilliesFR>```            | ...         | ```<value>``` list |        |
+| ```<TypeDonneesRecueilliesEN>```            | ...         | ```<value>``` list |        |
+| ```<DonneesCliniquesFR>```                  | ...         | ```<value>``` list |        |
+| ```<DonneesCliniquesEN>```                  | ...         | ```<value>``` list |        |
+| ```<DonneesCliniquesPrecisionsFR>```        | ...         | ?                  |        |
+| ```<DonneesCliniquesPrecisionsEN>```        | ...         | ?                  |        |
+| ```<DonneesDeclarativesFR>```               | ...         | ```<value>``` list |        |
+| ```<DonneesDeclarativesEN>```               | ...         | ```<value>``` list |        |
 | ``` <DonneesDeclarativesPrecisionsFR>```    | ...         | ?                  |        |
 | ``` <DonneesDeclarativesPrecisionsEN>```    | ...         | ?                  |        |
 | ``` <DonneesParacliniquesPrecisionsFR>```   | ...         | ?                  |        |
