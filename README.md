@@ -122,16 +122,14 @@ Participation à des projets, des réseaux, des consortiums
 
 Names of the relevant projects, networks, consortia.
 
-| tag                                                                                                                  | description                                          | type |
-| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ---- |
-| ``` <PartenariatsEtReseauxFR>```                                                                                     |
-| Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Oui/Non)                                |
-| ``` <PartenariatsEtReseauxFR>```                                                                                     |
-| Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Yes/No)                                 |
-| ``` <PartenariatsEtReseauxPrecisionsFR>```                                                                           | Names of the relevant projects, networks, consortia. | ?    |
-| ``` <PartenariatsEtReseauxPrecisionsEN>```                                                                           | Names of the relevant projects, networks, consortia. | ?    |
-| ``` <AutresCollaborationsFR>```                                                                                      | Other collaborations related to the database.                                 | ?    |
-| ``` <AutresCollaborationsEN>```                                                                                      | Other collaborations related to the database.                                  | ?    |
+| tag                                        | description                                                                                                          | type                  |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| ``` <PartenariatsEtReseauxFR>```           | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Oui/Non) |
+| ``` <PartenariatsEtReseauxFR>```           | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Yes/No)  |
+| ``` <PartenariatsEtReseauxPrecisionsFR>``` | Names of the relevant projects, networks, consortia.                                                                 | ?                     |
+| ``` <PartenariatsEtReseauxPrecisionsEN>``` | Names of the relevant projects, networks, consortia.                                                                 | ?                     |
+| ``` <AutresCollaborationsFR>```            | Other collaborations related to the database.                                                                        | ?                     |
+| ``` <AutresCollaborationsEN>```            | Other collaborations related to the database.                                                                        | ?                     |
 
 
 #### General - Financements
