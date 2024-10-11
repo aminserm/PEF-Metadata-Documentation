@@ -53,32 +53,32 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 
 #### General - Identification
-| tag                  | description                                                                                       | type | detail |
-| -------------------- | ------------------------------------------------------------------------------------------------- | ---- | ------ |
-| ```<NomFR>```        | The full, precise name or title of the database, survey, or project                               | text |        |
-| ```<NomEN>```        | The full, precise name or title of the database, survey, or project                               | text |        |
-| ```<AcronymeFR>```   | Abbreviation or Acronym                                                                           | text |        |
-| ```<AcronymeEN>```   | Abbreviation or Acronym                                                                           | text |        |
-| ```<NumeroCnilFR>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc  | text |        |
-| ```<NumeroCnilEN>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc. | text |        |
+| tag                  | description                                                                                       | type |
+| -------------------- | ------------------------------------------------------------------------------------------------- | ---- |
+| ```<NomFR>```        | The full, precise name or title of the database, survey, or project                               | text |
+| ```<NomEN>```        | The full, precise name or title of the database, survey, or project                               | text |
+| ```<AcronymeFR>```   | Abbreviation or Acronym                                                                           | text |
+| ```<AcronymeEN>```   | Abbreviation or Acronym                                                                           | text |
+| ```<NumeroCnilFR>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc  | text |
+| ```<NumeroCnilEN>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc. | text |
 
 
 #### General - ThematiquesGenerales
 
-| tag                                  | description                                                                                                                                                                                                                                | type                  | detail |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | ------ |
-| ```<DomainesDePathologiesFR>```      | Différents domaines médicaux abordés dans la base de données.                                                                                                                                                                              | ```<value>``` list    |        |
-| ```<DomainesDePathologiesEN>```      | Different medical fields addressed in the database.                                                                                                                                                                                        | ```<value>```  list   |        |
-| ```<CovidFR>```                      | Etude en lien avec la Covid-19                                                                                                                                                                                                             | categorical (Oui/Non) |        |
-| ```<CovidEN>```                      | Study related to Covid-19                                                                                                                                                                                                                  | categorical (Yes/No)  |        |
-| ```<PathologiesFR>```                | Nom(s) de la (des) pathologie(s) ou du (des) problème(s) de santé qui sont identifiés dans la base de données                                                                                                                              | text                  |        |
-| ```<PathologiesEN>```                | Name(s) of the pathology(ies) or health problem(s) identified in the database.                                                                                                                                                             | text                  |        |
-| ```<DeterminantsDeSanteFR>```        | Déterminants de santé étudiés dans la base de données.                                                                                                                                                                                     | ```<value>``` list    |        |
-| ```<DeterminantsDeSanteEN>```        | Health determinants studied in the database.                                                                                                                                                                                               | ```<value>``` list    |        |
-| ```<DomainesMedicauxPrecisionsFR>``` | Thématique(s) (domaines médicaux ou déterminants de santé) concernant votre base de données et ne figurant pas dans la liste proposée plus haut.                                                                                           | text                  |        |
-| ```<DomainesMedicauxPrecisionsEN>``` | Theme(s) (medical fields or health determinants) related to your database that are not included in the list provided above.                                                                                                                | text                  |        |
-| ```<MotsClesFR>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database.                                                | ```<value>``` list    |        |
-| ```<MotsClesEN>```                   | Mots ou expressions qui ont une importance particulière pour le référencement et la caractérisation de la base de données ou de l'enquête. Les mots-clés contribuent à améliorer le positionnement et la visibilité de la base de données. | ```<value>``` list    |        |
+| tag                                  | description                                                                                                                                                                                                                                | type                  |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
+| ```<DomainesDePathologiesFR>```      | Différents domaines médicaux abordés dans la base de données.                                                                                                                                                                              | ```<value>``` list    |
+| ```<DomainesDePathologiesEN>```      | Different medical fields addressed in the database.                                                                                                                                                                                        | ```<value>```  list   |
+| ```<CovidFR>```                      | Etude en lien avec la Covid-19                                                                                                                                                                                                             | categorical (Oui/Non) |
+| ```<CovidEN>```                      | Study related to Covid-19                                                                                                                                                                                                                  | categorical (Yes/No)  |
+| ```<PathologiesFR>```                | Nom(s) de la (des) pathologie(s) ou du (des) problème(s) de santé qui sont identifiés dans la base de données                                                                                                                              | text                  |
+| ```<PathologiesEN>```                | Name(s) of the pathology(ies) or health problem(s) identified in the database.                                                                                                                                                             | text                  |
+| ```<DeterminantsDeSanteFR>```        | Déterminants de santé étudiés dans la base de données.                                                                                                                                                                                     | ```<value>``` list    |
+| ```<DeterminantsDeSanteEN>```        | Health determinants studied in the database.                                                                                                                                                                                               | ```<value>``` list    |
+| ```<DomainesMedicauxPrecisionsFR>``` | Thématique(s) (domaines médicaux ou déterminants de santé) concernant votre base de données et ne figurant pas dans la liste proposée plus haut.                                                                                           | text                  |
+| ```<DomainesMedicauxPrecisionsEN>``` | Theme(s) (medical fields or health determinants) related to your database that are not included in the list provided above.                                                                                                                | text                  |
+| ```<MotsClesFR>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database.                                                | ```<value>``` list    |
+| ```<MotsClesEN>```                   | Mots ou expressions qui ont une importance particulière pour le référencement et la caractérisation de la base de données ou de l'enquête. Les mots-clés contribuent à améliorer le positionnement et la visibilité de la base de données. | ```<value>``` list    |
 
 
 #### General - ResponsableScientifique
@@ -201,30 +201,30 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 | --------------------------------- | ------------------------------ | ---- | ----------------------------------------------------- |
 | ```<TypeDeBaseDeDonnees>```       | Type de base de données        | tag  | [link](#caracteristiques---typedebasededonnees)       |
 | ```<ObjectifDeLaBaseDeDonnees>``` | Objectif de la base de données | tag  | [link](#caracteristiques---objectifdelabasededonnees) |
-| ```<TypeDePopulation>```          | ...                            | tag  | [link](#caracteristiques---typedepopulation)          |
+| ```<TypeDePopulation>```          | Type de population             | tag  | [link](#caracteristiques---typedepopulation)          |
 
 
 #### Caracteristiques - TypeDeBaseDeDonnees
-| tag                                       | description                                                                                                | type                  | detail |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------- | ------ |
-| ```<TypeDeBaseFR>```                      | Type de base de données                                                                                    | ```<value>``` list    |        |
-| ```<TypeDeBaseEN>```                      | Type of database                                                                                           | ```<value>``` list    |        |
-| ```<TypeDeBaseAutreFR>```                 | Type de base de données. Autres, préciser                                                                  | text                  |        |
-| ```<TypeDeBaseAutreEN>```                 | Other type of database. Please specify                                                                     | text                  |        |
-| ```<TypeEnqueteFR>```                     | Base de données issues d'enquêtes, précisions                                                              | ```<value>``` list    |        |
-| ```<TypeEnqueteEN>```                     | Database resulting from surveys, details                                                                   | ```<value>``` list    |        |
-| ```<RecrutementParIntermediaireFR>```     | Origine du recrutement des participants                                                                    | ```<value>``` list    |        |
-| ```<RecrutementParIntermediaireEN>```     | Source of participant recruitment                                                                          | ```<value>``` list    |        |
-| ```<BaseOuRegistrePrecisionsFR>```        | Base ou registre, précisions                                                                               | text                  |        |
-| ```<BaseOuRegistrePrecisionsEN>```        | Database or registry, details                                                                              | text                  |        |
-| ```<RecrutementSurBaseFR>```              | Critère de sélection des participants                                                                      | ```<value>``` list    |        |
-| ```<RecrutementSurBaseEN>```              | Criteria for selecting participants                                                                        | ```<value>``` list    |        |
-| ```<EnqueteInterventionnelleFR>```        | Le recrutement dans la base de données s'effectue dans le cadre d'une étude interventionnelle              | categorical (Oui/Non) |        |
-| ```<EnqueteInterventionnelleEN>```        | Recruitment in the database occurs as part of an interventional study                                      | categorical (Yes/No)  |        |
-| ```<InterventionnellePrecisionsFR>```     | Le recrutement dans la base de données s'effectue dans le cadre d'une étude interventionnelle. Précisions. | ```<value>``` list    |        |
-| ```<InterventionnellePrecisionsEN>```     | Recruitment in the database occurs as part of an interventional study. Details.                            | ```<value>``` list    |        |
-| ```<ModaliteConstitutionEchantillonFR>``` | Informations complémentaires concernant la constitution de l'échantillon                                   | text                  |        |
-| ```<ModaliteConstitutionEchantillonEN>``` | Additional information regarding sample constitution                                                       | text                  |        |
+| tag                                       | description                                                                                                | type                  |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------- |
+| ```<TypeDeBaseFR>```                      | Type de base de données                                                                                    | ```<value>``` list    |
+| ```<TypeDeBaseEN>```                      | Type of database                                                                                           | ```<value>``` list    |
+| ```<TypeDeBaseAutreFR>```                 | Type de base de données. Autres, préciser                                                                  | text                  |
+| ```<TypeDeBaseAutreEN>```                 | Other type of database. Please specify                                                                     | text                  |
+| ```<TypeEnqueteFR>```                     | Base de données issues d'enquêtes, précisions                                                              | ```<value>``` list    |
+| ```<TypeEnqueteEN>```                     | Database resulting from surveys, details                                                                   | ```<value>``` list    |
+| ```<RecrutementParIntermediaireFR>```     | Origine du recrutement des participants                                                                    | ```<value>``` list    |
+| ```<RecrutementParIntermediaireEN>```     | Source of participant recruitment                                                                          | ```<value>``` list    |
+| ```<BaseOuRegistrePrecisionsFR>```        | Base ou registre, précisions                                                                               | text                  |
+| ```<BaseOuRegistrePrecisionsEN>```        | Database or registry, details                                                                              | text                  |
+| ```<RecrutementSurBaseFR>```              | Critère de sélection des participants                                                                      | ```<value>``` list    |
+| ```<RecrutementSurBaseEN>```              | Criteria for selecting participants                                                                        | ```<value>``` list    |
+| ```<EnqueteInterventionnelleFR>```        | Le recrutement dans la base de données s'effectue dans le cadre d'une étude interventionnelle              | categorical (Oui/Non) |
+| ```<EnqueteInterventionnelleEN>```        | Recruitment in the database occurs as part of an interventional study                                      | categorical (Yes/No)  |
+| ```<InterventionnellePrecisionsFR>```     | Le recrutement dans la base de données s'effectue dans le cadre d'une étude interventionnelle. Précisions. | ```<value>``` list    |
+| ```<InterventionnellePrecisionsEN>```     | Recruitment in the database occurs as part of an interventional study. Details.                            | ```<value>``` list    |
+| ```<ModaliteConstitutionEchantillonFR>``` | Informations complémentaires concernant la constitution de l'échantillon                                   | text                  |
+| ```<ModaliteConstitutionEchantillonEN>``` | Additional information regarding sample constitution                                                       | text                  |
 
 
 #### Caracteristiques - ObjectifDeLaBaseDeDonnees
@@ -232,9 +232,10 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 | tag                         | description          | type |
 | --------------------------- | -------------------- | ---- |
 | ```<ObjectifGeneralFR>```   | Objectif principal   | text |
-| ```<ObjectifGeneralEN>```   | ...                  | text |
+| ```<ObjectifGeneralEN>```   | Main objective       | text |
 | ```<CriteresInclusionFR>``` | Critères d'inclusion | text |
-| ```<CriteresInclusionEN>``` | ...                  | text |
+| ```<CriteresInclusionEN>``` | Inclusion criteria   | text |
+
 
 #### Caracteristiques - TypeDePopulation
 
@@ -243,17 +244,18 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 | ```<TranchesAgeFR>```                 | Age                                       | ```<value>``` list |                                                                |
 | ```<TranchesAgeEN>```                 | Age                                       | ```<value>``` list |                                                                |
 | ```<PopulationFR>```                  | Population concernée                      | ```<value>``` list |                                                                |
-| ```<PopulationEN>```                  | ...                                       | ```<value>``` list |                                                                |
+| ```<PopulationEN>```                  | Target population                         | ```<value>``` list |                                                                |
 | ```<PopulationCimFR>```               | Pathologie                                | ```<value>``` list | [link](#caracteristiques---typedepopulation---populationcimfr) |
-| ```<PopulationCimEN>```               | ...                                       | ```<value>``` list | [link](#caracteristiques---typedepopulation---populationcimen) |
+| ```<PopulationCimEN>```               | Pathology                                 | ```<value>``` list | [link](#caracteristiques---typedepopulation---populationcimen) |
 | ```<SexeFR>```                        | Sexe                                      | ```<value>``` list |                                                                |
-| ```<SexeEN>```                        | ...                                       | ```<value>``` list |                                                                |
+| ```<SexeEN>```                        | Gender                                    | ```<value>``` list |                                                                |
 | ```<ChampGeographiqueFR>```           | Champ géographique                        | ```<value>``` list |                                                                |
-| ```<ChampGeographiqueEN>```           | ...                                       | ```<value>``` list |                                                                |
+| ```<ChampGeographiqueEN>```           | Geographical area                         | ```<value>``` list |                                                                |
 | ```<RegionsConcerneesFR>```           | Régions concernées par la base de données | ```<value>``` list |                                                                |
-| ```<RegionsConcerneesEN>```           | ...                                       | ```<value>``` list |                                                                |
+| ```<RegionsConcerneesEN>```           | Regions covered by the database           | ```<value>``` list |                                                                |
 | ```<ChampGeographiquePrecisionsFR>``` | Détail du champ géographique              | text               |                                                                |
-| ```<ChampGeographiquePrecisionsEN>``` | ...                                       | text               |                                                                |
+| ```<ChampGeographiquePrecisionsEN>``` | Geographical area details                 | text               |                                                                |
+
 
 ##### Caracteristiques - TypeDePopulation - PopulationCimFR
 
