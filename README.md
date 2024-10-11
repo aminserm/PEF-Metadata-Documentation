@@ -13,10 +13,10 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 | tag                         | description                                           | detail                       |
 | --------------------------- | ----------------------------------------------------- | ---------------------------- |
 | ```<Metadonnees>```         | Internal metadata of the resource in the  PEF catalog | [link](#metadonnees)         |
-| ```<General>```             | ....                                                  | [link](#general)             |
-| ```<Caracteristiques>```    | ....                                                  | [link](#caracteristiques)    |
-| ```<Collecte>```            | ....                                                  | [link](#collecte)            |
-| ```<ValorisationEtAcces>``` | ....                                                  | [link](#valorisationetacces) |
+| ```<General>```             | General                                               | [link](#general)             |
+| ```<Caracteristiques>```    | Caracteristiques                                      | [link](#caracteristiques)    |
+| ```<Collecte>```            | Collecte                                              | [link](#collecte)            |
+| ```<ValorisationEtAcces>``` | Valorisation et accès                                 | [link](#valorisationetacces) |
 
 
 ### Metadonnees  
@@ -43,13 +43,13 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 | tag                                  | description                                                                                                                                                                                                                          | type | detail                                          |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- | ----------------------------------------------- |
-| ```<Identification>```               | ...                                                                                                                                                                                                                                  | tag  | [link](#general---identification)               |
-| ```<ThematiquesGenerales>```         | ....                                                                                                                                                                                                                                 | tag  | [link](#general---thematiquesgenerales)         |
+| ```<Identification>```               | Identification                                                                                                                                                                                                                       | tag  | [link](#general---identification)               |
+| ```<ThematiquesGenerales>```         | Thématiques générales                                                                                                                                                                                                                | tag  | [link](#general---thematiquesgenerales)         |
 | ```<ResponsableScientifique>```      | Person(s) assuming scientific responsibility for the database. This person (or persons) agrees to be contacted for any questions related to the database; if necessary, it is recommended to designate an additional contact person. | tag  | [link](#general---responsablescientifique)      |
 | ```<Collaborations>```               | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.).                                                                                                                 | tag  | [link](#general---collaborations)               |
 | ```<Financements>```                 | Statut des sources de financement ayant permis de constituer la base de données ainsi que celles contribuant à son maintien et/ou à son développement.                                                                               | tag  | [link](#general---financements)                 |
-| ```<GouvernanceDeLaBaseDeDonnees>``` | ....                                                                                                                                                                                                                                 | tag  | [link](#general---gouvernancedelabasededonnees) |
-| ```<ContactSupplementaire>```        | ....                                                                                                                                                                                                                                 | tag  | [link](#general---contactsupplementaire)        |
+| ```<GouvernanceDeLaBaseDeDonnees>``` | Gouvernance de la base de données                                                                                                                                                                                                    | tag  | [link](#general---gouvernancedelabasededonnees) |
+| ```<ContactSupplementaire>```        | Contact(s) supplémentaire(s)                                                                                                                                                                                                         | tag  | [link](#general---contactsupplementaire)        |
 
 
 #### General - Identification
@@ -164,198 +164,201 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### General - ContactSupplementaire
 
-| tag                             | description | type               | detail |
-| ------------------------------- | ----------- | ------------------ | ------ |
-| ```<ContactSupplementaireFR>``` | ...         | ```<value>``` list |        |
-| ```<ContactSupplementaireEN>``` | ...         | ```<value>``` list |        |
+| tag                             | description            | type               | detail                                                             |
+| ------------------------------- | ---------------------- | ------------------ | ------------------------------------------------------------------ |
+| ```<ContactSupplementaireFR>``` | Contact supplémentaire | ```<value>``` list | [link](#general---contactsupplementaire---contactsupplementairefr) |
+| ```<ContactSupplementaireEN>``` | Additional contact     | ```<value>``` list | [link](#general---contactsupplementaire---contactsupplementaireen) |
 
 
 ##### General - ContactSupplementaire - ContactSupplementaireFR
 
-| tag                           | description | type | detail |
-| ----------------------------- | ----------- | ---- | ------ |
-| ```<ContactSupplementaire>``` | ...         | ?    |        |
-| ```<PrenomContact>```         | ...         | ?    |        |
-| ```<AdresseContact>```        | ...         | ?    |        |
-| ```<TelephoneContact>```      | ...         | ?    |        |
-| ```<MailContact>```           | ...         | ?    |        |
-| ```<LaboratoireContact>```    | ...         | ?    |        |
-| ```<OrganismeContact>```      | ...         | ?    |        |
+| tag                           | description    | type |
+| ----------------------------- | -------------- | ---- |
+| ```<ContactSupplementaire>``` | Nom du contact | text |
+| ```<PrenomContact>```         | Prénom         | text |
+| ```<AdresseContact>```        | Adresse        | text |
+| ```<TelephoneContact>```      | Téléphone      | text |
+| ```<MailContact>```           | Email          | text |
+| ```<LaboratoireContact>```    | Laboratoire    | text |
+| ```<OrganismeContact>```      | Organisme      | text |
 
 ##### General - ContactSupplementaire - ContactSupplementaireEN
 
-| tag                           | description | type | detail |
-| ----------------------------- | ----------- | ---- | ------ |
-| ```<ContactSupplementaire>``` | ...         | ?    |        |
-| ```<PrenomContact>```         | ...         | ?    |        |
-| ```<AdresseContact>```        | ...         | ?    |        |
-| ```<TelephoneContact>```      | ...         | ?    |        |
-| ```<MailContact>```           | ...         | ?    |        |
-| ```<LaboratoireContact>```    | ...         | ?    |        |
-| ```<OrganismeContact>```      | ...         | ?    |        |
+| tag                           | description    | type |
+| ----------------------------- | -------------- | ---- |
+| ```<ContactSupplementaire>``` | Nom du contact | text |
+| ```<PrenomContact>```         | Prénom         | text |
+| ```<AdresseContact>```        | Adresse        | text |
+| ```<TelephoneContact>```      | Téléphone      | text |
+| ```<MailContact>```           | Email          | text |
+| ```<LaboratoireContact>```    | Laboratoire    | text |
+| ```<OrganismeContact>```      | Organisme      | text |
 
 
 ### Caracteristiques
 
-| tag                               | description | type | detail |
-| --------------------------------- | ----------- | ---- | ------ |
-| ```<TypeDeBaseDeDonnees>```       | ...         | tag  |        |
-| ```<ObjectifDeLaBaseDeDonnees>``` | ...         | tag  |        |
-| ```<TypeDePopulation>```          | ...         | tag  |        |
+| tag                               | description                    | type | detail                                                |
+| --------------------------------- | ------------------------------ | ---- | ----------------------------------------------------- |
+| ```<TypeDeBaseDeDonnees>```       | Type de base de données        | tag  | [link](#caracteristiques---typedebasededonnees)       |
+| ```<ObjectifDeLaBaseDeDonnees>``` | Objectif de la base de données | tag  | [link](#caracteristiques---objectifdelabasededonnees) |
+| ```<TypeDePopulation>```          | ...                            | tag  | [link](#caracteristiques---typedepopulation)          |
 
 
 #### Caracteristiques - TypeDeBaseDeDonnees
-
-| tag                                       | description | type               | detail |
-| ----------------------------------------- | ----------- | ------------------ | ------ |
-| ```<TypeDeBaseFR>```                      | ...         | ```<value>``` list |        |
-| ```<TypeDeBaseEN>```                      | ...         | ```<value>``` list |        |
-| ```<TypeDeBaseAutreFR>```                 | ...         | ?                  |        |
-| ```<TypeDeBaseAutreEN>```                 | ...         | ?                  |        |
-| ```<TypeEnqueteFR>```                     | ...         | ```<value>``` list |        |
-| ```<TypeEnqueteEN>```                     | ...         | ```<value>``` list |        |
-| ```<RecrutementParIntermediaireFR>```     | ...         | ```<value>``` list |        |
-| ```<RecrutementParIntermediaireEN>```     | ...         | ```<value>``` list |        |
-| ```<BaseOuRegistrePrecisionsFR>```        | ...         | ?                  |        |
-| ```<BaseOuRegistrePrecisionsEN>```        | ...         | ?                  |        |
-| ```<RecrutementSurBaseFR>```              | ...         | ```<value>``` list |        |
-| ```<RecrutementSurBaseEN>```              | ...         | ```<value>``` list |        |
-| ```<EnqueteInterventionnelleFR>```        | ...         | ?                  |        |
-| ```<EnqueteInterventionnelleEN>```        | ...         | ?                  |        |
-| ```<InterventionnellePrecisionsFR>```     | ...         | ```<value>``` list |        |
-| ```<InterventionnellePrecisionsEN>```     | ...         | ```<value>``` list |        |
-| ```<ModaliteConstitutionEchantillonFR>``` | ...         | text               |        |
-| ```<ModaliteConstitutionEchantillonEN>``` | ...         | text               |        |
+| tag                                       | description                                                                                                | type                  | detail |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------- | ------ |
+| ```<TypeDeBaseFR>```                      | Type de base de données                                                                                    | ```<value>``` list    |        |
+| ```<TypeDeBaseEN>```                      | Type of database                                                                                           | ```<value>``` list    |        |
+| ```<TypeDeBaseAutreFR>```                 | Type de base de données. Autres, préciser                                                                  | text                  |        |
+| ```<TypeDeBaseAutreEN>```                 | Other type of database. Please specify                                                                     | text                  |        |
+| ```<TypeEnqueteFR>```                     | Base de données issues d'enquêtes, précisions                                                              | ```<value>``` list    |        |
+| ```<TypeEnqueteEN>```                     | Database resulting from surveys, details                                                                   | ```<value>``` list    |        |
+| ```<RecrutementParIntermediaireFR>```     | Origine du recrutement des participants                                                                    | ```<value>``` list    |        |
+| ```<RecrutementParIntermediaireEN>```     | Source of participant recruitment                                                                          | ```<value>``` list    |        |
+| ```<BaseOuRegistrePrecisionsFR>```        | Base ou registre, précisions                                                                               | text                  |        |
+| ```<BaseOuRegistrePrecisionsEN>```        | Database or registry, details                                                                              | text                  |        |
+| ```<RecrutementSurBaseFR>```              | Critère de sélection des participants                                                                      | ```<value>``` list    |        |
+| ```<RecrutementSurBaseEN>```              | Criteria for selecting participants                                                                        | ```<value>``` list    |        |
+| ```<EnqueteInterventionnelleFR>```        | Le recrutement dans la base de données s'effectue dans le cadre d'une étude interventionnelle              | categorical (Oui/Non) |        |
+| ```<EnqueteInterventionnelleEN>```        | Recruitment in the database occurs as part of an interventional study                                      | categorical (Yes/No)  |        |
+| ```<InterventionnellePrecisionsFR>```     | Le recrutement dans la base de données s'effectue dans le cadre d'une étude interventionnelle. Précisions. | ```<value>``` list    |        |
+| ```<InterventionnellePrecisionsEN>```     | Recruitment in the database occurs as part of an interventional study. Details.                            | ```<value>``` list    |        |
+| ```<ModaliteConstitutionEchantillonFR>``` | Informations complémentaires concernant la constitution de l'échantillon                                   | text                  |        |
+| ```<ModaliteConstitutionEchantillonEN>``` | Additional information regarding sample constitution                                                       | text                  |        |
 
 
 #### Caracteristiques - ObjectifDeLaBaseDeDonnees
 
-| tag                         | description | type | detail |
-| --------------------------- | ----------- | ---- | ------ |
-| ```<ObjectifGeneralFR>```   | ...         | text |        |
-| ```<ObjectifGeneralEN>```   | ...         | text |        |
-| ```<CriteresInclusionFR>``` | ...         | text |        |
-| ```<CriteresInclusionEN>``` | ...         | text |        |
+| tag                         | description          | type |
+| --------------------------- | -------------------- | ---- |
+| ```<ObjectifGeneralFR>```   | Objectif principal   | text |
+| ```<ObjectifGeneralEN>```   | ...                  | text |
+| ```<CriteresInclusionFR>``` | Critères d'inclusion | text |
+| ```<CriteresInclusionEN>``` | ...                  | text |
 
 #### Caracteristiques - TypeDePopulation
 
-| tag                                   | description | type               | detail |
-| ------------------------------------- | ----------- | ------------------ | ------ |
-| ```<TranchesAgeFR>```                 | ...         | ```<value>``` list |        |
-| ```<TranchesAgeEN>```                 | ...         | ```<value>``` list |        |
-| ```<PopulationFR>```                  | ...         | ```<value>``` list |        |
-| ```<PopulationEN>```                  | ...         | ```<value>``` list |        |
-| ```<PopulationCimFR>```               | ...         | ```<value>``` list |        |
-| ```<PopulationCimEN>```               | ...         | ```<value>``` list |        |
-| ```<SexeFR>```                        | ...         | ```<value>``` list |        |
-| ```<SexeEN>```                        | ...         | ```<value>``` list |        |
-| ```<ChampGeographiqueFR>```           | ...         | ```<value>``` list |        |
-| ```<ChampGeographiqueEN>```           | ...         | ```<value>``` list |        |
-| ```<RegionsConcerneesFR>```           | ...         | ```<value>``` list |        |
-| ```<RegionsConcerneesEN>```           | ...         | ```<value>``` list |        |
-| ```<ChampGeographiquePrecisionsFR>``` | ...         | text               |        |
-| ```<ChampGeographiquePrecisionsEN>``` | ...         | text               |        |
+| tag                                   | description                               | type               | detail                                                         |
+| ------------------------------------- | ----------------------------------------- | ------------------ | -------------------------------------------------------------- |
+| ```<TranchesAgeFR>```                 | Age                                       | ```<value>``` list |                                                                |
+| ```<TranchesAgeEN>```                 | Age                                       | ```<value>``` list |                                                                |
+| ```<PopulationFR>```                  | Population concernée                      | ```<value>``` list |                                                                |
+| ```<PopulationEN>```                  | ...                                       | ```<value>``` list |                                                                |
+| ```<PopulationCimFR>```               | Pathologie                                | ```<value>``` list | [link](#caracteristiques---typedepopulation---populationcimfr) |
+| ```<PopulationCimEN>```               | ...                                       | ```<value>``` list | [link](#caracteristiques---typedepopulation---populationcimen) |
+| ```<SexeFR>```                        | Sexe                                      | ```<value>``` list |                                                                |
+| ```<SexeEN>```                        | ...                                       | ```<value>``` list |                                                                |
+| ```<ChampGeographiqueFR>```           | Champ géographique                        | ```<value>``` list |                                                                |
+| ```<ChampGeographiqueEN>```           | ...                                       | ```<value>``` list |                                                                |
+| ```<RegionsConcerneesFR>```           | Régions concernées par la base de données | ```<value>``` list |                                                                |
+| ```<RegionsConcerneesEN>```           | ...                                       | ```<value>``` list |                                                                |
+| ```<ChampGeographiquePrecisionsFR>``` | Détail du champ géographique              | text               |                                                                |
+| ```<ChampGeographiquePrecisionsEN>``` | ...                                       | text               |                                                                |
 
 ##### Caracteristiques - TypeDePopulation - PopulationCimFR
 
-| tag         | description | type | detail |
-| ----------- | ----------- | ---- | ------ |
-| ```<Cim>``` | ...         | text |        |
+| tag         | description                                                            | type |
+| ----------- | ---------------------------------------------------------------------- | ---- |
+| ```<Cim>``` | Code CIM - Classification internationale des Maladies - CIM 10 GM 2012 | text |
 
 ##### Caracteristiques - TypeDePopulation - PopulationCimEN
 
-| tag         | description | type | detail |
-| ----------- | ----------- | ---- | ------ |
-| ```<Cim>``` | ...         | text |        |
+| tag         | description                                                            | type |
+| ----------- | ---------------------------------------------------------------------- | ---- |
+| ```<Cim>``` | Code CIM - Classification internationale des Maladies - CIM 10 GM 2012 | text |
 
 ### Collecte
 
-| tag                             | description | type | detail |
-| ------------------------------- | ----------- | ---- | ------ |
-| ```<Dates>```                   | ...         | tag  |        |
-| ```<TailleDeLaBaseDeDonnees>``` | ...         | tag  |        |
-| ```<Donnees>```                 | ...         | tag  |        |
-| ```<Modalites>```               | ...         | tag  |        |
+| tag                             | description | type | detail                                      |
+| ------------------------------- | ----------- | ---- | ------------------------------------------- |
+| ```<Dates>```                   | Dates       | tag  | [link](#collecte---dates)                   |
+| ```<TailleDeLaBaseDeDonnees>``` | ...         | tag  | [link](#collecte---tailledelabasededonnees) |
+| ```<Donnees>```                 | ...         | tag  | [link](#collecte---dates)                   |
+| ```<Modalites>```               | ...         | tag  | [link](#collecte---modalites)               |
 
 #### Collecte - Dates
 
-| tag                           | description | type | detail |
-| ----------------------------- | ----------- | ---- | ------ |
-| ```<AnneePremierRecueilFR>``` | ...         | text |        |
-| ```<AnneePremierRecueilEN>``` | ...         | text |        |
-| ```<AnneeDernierRecueilFR>``` | ...         | text |        |
-| ```<AnneeDernierRecueilEN>``` | ...         | text |        |
+| tag                           | description                  | type |
+| ----------------------------- | ---------------------------- | ---- |
+| ```<AnneePremierRecueilFR>``` | Année du premier recueil     | text |
+| ```<AnneePremierRecueilEN>``` | Year of the first collection | text |
+| ```<AnneeDernierRecueilFR>``` | Année du dernier recueil     | text |
+| ```<AnneeDernierRecueilEN>``` | Year of the last collection  | text |
+
 
 #### Collecte - TailleDeLaBaseDeDonnees
 
-| tag                        | description | type               | detail |
-| -------------------------- | ----------- | ------------------ | ------ |
-| ```<TailleBaseFR>```       | ...         | ```<value>``` list |        |
-| ```<TailleBaseEN>```       | ...         | ```<value>``` list |        |
-| ```<TailleBaseDetailFR>``` | ...         | text               |        |
-| ```<TailleBaseDetailEN>``` | ...         | text               |        |
+| tag                        | description                                          | type               |
+| -------------------------- | ---------------------------------------------------- | ------------------ |
+| ```<TailleBaseFR>```       | Taille de la base de données (en nombre d'individus) | ```<value>``` list |
+| ```<TailleBaseEN>```       | Size of the database (in number of individuals)      | ```<value>``` list |
+| ```<TailleBaseDetailFR>``` | Détail du nombre d'individus                         | text               |
+| ```<TailleBaseDetailEN>``` | Detail of the number of individuals                  | text               |
+
 
 #### Collecte - Donnees
 
-| tag                                         | description | type               | detail |
-| ------------------------------------------- | ----------- | ------------------ | ------ |
-| ```<EnActiviteFR>```                        | ...         | ```<value>``` list |        |
-| ```<EnActiviteEN>```                        | ...         | ```<value>``` list |        |
-| ```<TypeDonneesRecueilliesFR>```            | ...         | ```<value>``` list |        |
-| ```<TypeDonneesRecueilliesEN>```            | ...         | ```<value>``` list |        |
-| ```<DonneesCliniquesFR>```                  | ...         | ```<value>``` list |        |
-| ```<DonneesCliniquesEN>```                  | ...         | ```<value>``` list |        |
-| ```<DonneesCliniquesPrecisionsFR>```        | ...         | ?                  |        |
-| ```<DonneesCliniquesPrecisionsEN>```        | ...         | ?                  |        |
-| ```<DonneesDeclarativesFR>```               | ...         | ```<value>``` list |        |
-| ```<DonneesDeclarativesEN>```               | ...         | ```<value>``` list |        |
-| ``` <DonneesDeclarativesPrecisionsFR>```    | ...         | ?                  |        |
-| ``` <DonneesDeclarativesPrecisionsEN>```    | ...         | ?                  |        |
-| ``` <DonneesParacliniquesPrecisionsFR>```   | ...         | ?                  |        |
-| ``` <DonneesParacliniquesPrecisionsEN>```   | ...         | ?                  |        |
-| ``` <DonneesBiologiquesPrecisionsFR>```     | ...         | ?                  |        |
-| ``` <DonneesBiologiquesPrecisionsEN>```     | ...         | ?                  |        |
-| ``` <DonneesAdministrativesPrecisionsFR>``` | ...         | text               |        |
-| ``` <DonneesAdministrativesPrecisionsEN>``` | ...         | text               |        |
-| ``` <DonneesCoutPrecisionsFR>```            | ...         | ?                  |        |
-| ``` <DonneesCoutPrecisionsEN>```            | ...         | ?                  |        |
-| ``` <DonneesUtilitePrecisionsFR>```         | ...         | ?                  |        |
-| ``` <DonneesUtilitePrecisionsEN>```         | ...         | ?                  |        |
-| ``` <BiothequeFR>```                        | ...         | text               |        |
-| ``` <BiothequeEN>```                        | ...         | text               |        |
-| ``` <ContenuBiothequeFR>```                 | ...         | ```<value>``` list |        |
-| ``` <ContenuBiothequeEN>```                 | ...         | ```<value>``` list |        |
-| ``` <BiothequePrecisionsFR>```              | ...         | ?                  |        |
-| ``` <BiothequePrecisionsEN>```              | ...         | ?                  |        |
-| ``` <ParametreDeSanteFR>```                 | ...         | ```<value>``` list |        |
-| ``` <ParametreDeSanteEN>```                 | ...         | ```<value>``` list |        |
-| ``` <ConsommationDeSoinsFR>```              | ...         | ```<value>``` list |        |
-| ``` <ConsommationDeSoinsEN>```              | ...         | ```<value>``` list |        |
-| ``` <QualiteDeVieSantePercueFR>```          | ...         | ?                  |        |
-| ``` <QualiteDeVieSantePercueEN>```          | ...         | ?                  |        |
-| ``` <AutreParametreObserveFR>```            | ...         | ?                  |        |
-| ``` <AutreParametreObserveEN>```            | ...         | ?                  |        |
+| tag                                        | description                                 | type                  |
+| ------------------------------------------ | ------------------------------------------- | --------------------- |
+| ```<EnActiviteFR>```                       | Activité de la base                         | ```<value>``` list    |
+| ```<EnActiviteEN>```                       | Database activity                           | ```<value>``` list    |
+| ```<TypeDonneesRecueilliesFR>```           | Type de données recueillies                 | ```<value>``` list    |
+| ```<TypeDonneesRecueilliesEN>```           | Type of data collected                      | ```<value>``` list    |
+| ```<DonneesCliniquesFR>```                 | Données cliniques, précisions               | ```<value>``` list    |
+| ```<DonneesCliniquesEN>```                 | Clinical data, details                      | ```<value>``` list    |
+| ```<DonneesCliniquesPrecisionsFR>```       | Détail des données cliniques recueillies    | text                  |
+| ```<DonneesCliniquesPrecisionsEN>```       | Details of collected clinical data          | text                  |
+| ```<DonneesDeclarativesFR>```              | Données déclaratives, précisions            | ```<value>``` list    |
+| ```<DonneesDeclarativesEN>```              | Declarative data, details                   | ```<value>``` list    |
+| ```<DonneesDeclarativesPrecisionsFR>```    | Détail des données déclaratives recueillies | text                  |
+| ```<DonneesDeclarativesPrecisionsEN>```    | Details of collected declarative data       | text                  |
+| ```<DonneesParacliniquesPrecisionsFR>```   | Données paracliniques, précisions           | text                  |
+| ```<DonneesParacliniquesPrecisionsEN>```   | Paraclinical data, details                  | text                  |
+| ```<DonneesBiologiquesPrecisionsFR>```     | Données biologiques, précisions             | text                  |
+| ```<DonneesBiologiquesPrecisionsEN>```     | Biological data, details                    | text                  |
+| ```<DonneesAdministrativesPrecisionsFR>``` | Données administratives, précisions         | text                  |
+| ```<DonneesAdministrativesPrecisionsEN>``` | Administrative data, details                | text                  |
+| ```<DonneesCoutPrecisionsFR>```            | Données de coût, précisions                 | text                  |
+| ```<DonneesCoutPrecisionsEN>```            | Cost data, details                          | text                  |
+| ```<DonneesUtilitePrecisionsFR>```         | Données d’utilité / préférence, précisions  | text                  |
+| ```<DonneesUtilitePrecisionsEN>```         | Utility / preference data, details          | text                  |
+| ```<BiothequeFR>```                        | Existence d’une biothèque                   | categorical (Oui/Non) |
+| ```<BiothequeEN>```                        | Existence of a biobank                      | categorical (Yes/No)  |
+| ```<ContenuBiothequeFR>```                 | Contenu de la biothèque                     | ```<value>``` list    |
+| ```<ContenuBiothequeEN>```                 | Content of the biobank                      | ```<value>``` list    |
+| ```<BiothequePrecisionsFR>```              | Détail des éléments conservés               | text                  |
+| ```<BiothequePrecisionsEN>```              | Details of preserved elements               | text                  |
+| ```<ParametreDeSanteFR>```                 | Paramètres de santé étudiés                 | ```<value>``` list    |
+| ```<ParametreDeSanteEN>```                 | Health parameters studied                   | ```<value>``` list    |
+| ```<ConsommationDeSoinsFR>```              | Consommation de soins, précisions           | ```<value>``` list    |
+| ```<ConsommationDeSoinsEN>```              | Healthcare consumption, details             | ```<value>``` list    |
+| ```<QualiteDeVieSantePercueFR>```          | Qualité de vie/santé perçue, précisions     | text                  |
+| ```<QualiteDeVieSantePercueEN>```          | Perceived quality of life/health, details   | text                  |
+| ```<AutreParametreObserveFR>```            | Autres, précisions                          | text                  |
+| ```<AutreParametreObserveEN>```            | Others, details                             | text                  |
+
 
 #### Collecte - Modalites
 
-| tag                                         | description | type                  | detail |
-| ------------------------------------------- | ----------- | --------------------- | ------ |
-| ``` <ModalitesDeRecueilFR>```               | ...         | text                  |        |
-| ``` <ModalitesDeRecueilEN>```               | ...         | text                  |        |
-| ``` <NomenclatureFR>```                     | ...         | ?                     |        |
-| ``` <NomenclatureEN>```                     | ...         | ?                     |        |
-| ``` <ProcedureQualiteFR>```                 | ...         | ?                     |        |
-| ``` <ProcedureQualiteEN>```                 | ...         | ?                     |        |
-| ``` <SuiviDesParticipantsFR>```             | ...         | categorical (Oui/Non) |        |
-| ``` <SuiviDesParticipantsEN>```             | ...         | categorical (Yes/No)  |        |
-| ``` <SuiviDesParticipantsModalitesFR>```    | ...         | ```<value>``` list    |        |
-| ``` <SuiviDesParticipantsModalitesEN>```    | ...         | ```<value>``` list    |        |
-| ``` <DetailDuSuiviFR>```                    | ...         | ?                     |        |
-| ``` <DetailDuSuiviEN>```                    | ...         | ?                     |        |
-| ``` <SuiviDesParticipantsCimFR>```          | ...         | ?                     |        |
-| ``` <SuiviDesParticipantsCimEN>```          | ...         | ?                     |        |
-| ``` <SourcesAdministrativesFR>```           | ...         | categorical (Oui/Non) |        |
-| ``` <SourcesAdministrativesEN>```           | ...         | categorical (Yes/No)  |        |
-| ``` <SourcesAdministrativesPrecisionsFR>``` | ...         | text                  |        |
-| ``` <SourcesAdministrativesPrecisionsEN>``` | ...         | text                  |        |
+| tag                                         | complete name                                 | type                  |
+| ------------------------------------------- | --------------------------------------------- | --------------------- |
+| ``` <ModalitesDeRecueilFR>```               | Mode de recueil des données                   | text                  |
+| ``` <ModalitesDeRecueilEN>```               | Data collection method                        | text                  |
+| ``` <NomenclatureFR>```                     | Nomenclatures employées                       | text                  |
+| ``` <NomenclatureEN>```                     | Used nomenclatures                            | text                  |
+| ``` <ProcedureQualiteFR>```                 | Procédures qualité utilisées                  | text                  |
+| ``` <ProcedureQualiteEN>```                 | Quality procedures used                       | text                  |
+| ``` <SuiviDesParticipantsFR>```             | Suivi des participants                        | categorical (Oui/Non) |
+| ``` <SuiviDesParticipantsEN>```             | Follow-up of participants                     | categorical (Yes/No)  |
+| ``` <SuiviDesParticipantsModalitesFR>```    | Modalités de suivi des participants           | ```<value>``` list    |
+| ``` <SuiviDesParticipantsModalitesEN>```    | Follow-up modalities for participants         | ```<value>``` list    |
+| ``` <DetailDuSuiviFR>```                    | Détail du suivi                               | text                  |
+| ``` <DetailDuSuiviEN>```                    | Follow-up details                             | text                  |
+| ``` <SuiviDesParticipantsCimFR>```          | Pathologie suivies                            | ```<value>``` list    |
+| ``` <SuiviDesParticipantsCimEN>```          | Pathologies followed                          | ```<value>``` list    |
+| ``` <SourcesAdministrativesFR>```           | Appariement avec des sources administratives  | categorical (Oui/Non) |
+| ``` <SourcesAdministrativesEN>```           | Matching with administrative sources          | categorical (Yes/No)  |
+| ``` <SourcesAdministrativesPrecisionsFR>``` | Sources administratives appariées, précisions | text                  |
+| ``` <SourcesAdministrativesPrecisionsEN>``` | Matched administrative sources, details       | text                  |
+
 
