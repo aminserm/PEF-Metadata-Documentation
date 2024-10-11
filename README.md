@@ -41,47 +41,49 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 ### General
 
-| tag                                  | description | type        | detail                                          |
-| ------------------------------------ | ----------- | ----------- | ----------------------------------------------- |
-| ```<Identification>```               | ...         | id          | [link](#general---identification)               |
-| ```<ThematiquesGenerales>```         | ....        | code        | [link](#general---thematiquesgenerales)         |
-| ```<ResponsableScientifique>```      | ....        | code        | [link](#general---responsablescientifique)      |
-| ```<Collaborations>```               | ....        | date        | [link](#general---collaborations)               |
-| ```<Financements>```                 | ....        | date        | [link](#general---financements)                 |
-| ```<GouvernanceDeLaBaseDeDonnees>``` | ....        | categorical | [link](#general---gouvernancedelabasededonnees) |
-| ```<ContactSupplementaire>```        | ....        | categorical | [link](#general---contactsupplementaire)        |
+| tag                                  | description                                                                                                                                                                                                                          | type        | detail                                          |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ----------------------------------------------- |
+| ```<Identification>```               | ...                                                                                                                                                                                                                                  | id          | [link](#general---identification)               |
+| ```<ThematiquesGenerales>```         | ....                                                                                                                                                                                                                                 | code        | [link](#general---thematiquesgenerales)         |
+| ```<ResponsableScientifique>```      | Person(s) assuming scientific responsibility for the database. This person (or persons) agrees to be contacted for any questions related to the database; if necessary, it is recommended to designate an additional contact person. | code        | [link](#general---responsablescientifique)      |
+| ```<Collaborations>```               | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.).                                                                                                                 | date        | [link](#general---collaborations)               |
+| ```<Financements>```                 | ....                                                                                                                                                                                                                                 | date        | [link](#general---financements)                 |
+| ```<GouvernanceDeLaBaseDeDonnees>``` | ....                                                                                                                                                                                                                                 | categorical | [link](#general---gouvernancedelabasededonnees) |
+| ```<ContactSupplementaire>```        | ....                                                                                                                                                                                                                                 | categorical | [link](#general---contactsupplementaire)        |
 
 
 #### General - Identification
-| tag                   | description                                                                                       | type | detail |
-| --------------------- | ------------------------------------------------------------------------------------------------- | ---- | ------ |
-| ``` <NomFR>```        | The full, precise name or title of the database, survey, or project                               | text |        |
-| ``` <NomEN>```        | The full, precise name or title of the database, survey, or project                               | text |        |
-| ``` <AcronymeFR>```   | Abbreviation or Acronym                                                                           | text |        |
-| ``` <AcronymeEN>```   | Abbreviation or Acronym                                                                           | text |        |
-| ``` <NumeroCnilFR>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc  | text |        |
-| ``` <NumeroCnilEN>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc. | text |        |
+| tag                  | description                                                                                       | type | detail |
+| -------------------- | ------------------------------------------------------------------------------------------------- | ---- | ------ |
+| ```<NomFR>```        | The full, precise name or title of the database, survey, or project                               | text |        |
+| ```<NomEN>```        | The full, precise name or title of the database, survey, or project                               | text |        |
+| ```<AcronymeFR>```   | Abbreviation or Acronym                                                                           | text |        |
+| ```<AcronymeEN>```   | Abbreviation or Acronym                                                                           | text |        |
+| ```<NumeroCnilFR>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc  | text |        |
+| ```<NumeroCnilEN>``` | A unique identification number assigned by organizations such as ID-RCB, EUDRACT, CNIL, CPP, etc. | text |        |
 
 
 #### General - ThematiquesGenerales
 
-| tag                                   | description                                                                                                                                                                                 | type                  | detail |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------ |
-| ``` <DomainesDePathologiesFR>```      | ...                                                                                                                                                                                         | ```<value>``` list    |        |
-| ``` <DomainesDePathologiesEN>```      | ...                                                                                                                                                                                         | ```<value>``` list    |        |
-| ``` <CovidFR>```                      | ...                                                                                                                                                                                         | categorical (Oui/Non) |        |
-| ``` <CovidEN>```                      | ...                                                                                                                                                                                         | categorical (Yes/No)  |        |
-| ``` <PathologiesFR>```                | ...                                                                                                                                                                                         | text                  |        |
-| ``` <PathologiesEN>```                | ...                                                                                                                                                                                         | text                  |        |
-| ``` <DeterminantsDeSanteFR>```        | ...                                                                                                                                                                                         | ```<value>``` list    |        |
-| ``` <DeterminantsDeSanteEN>```        | ...                                                                                                                                                                                         | ```<value>``` list    |        |
-| ``` <DomainesMedicauxPrecisionsFR>``` | ...                                                                                                                                                                                         | text                  |        |
-| ``` <DomainesMedicauxPrecisionsEN>``` | ...                                                                                                                                                                                         | text                  |        |
-| ``` <MotsClesFR>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database. | ```<value>``` list    |        |
-| ``` <MotsClesEN>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database. | ```<value>``` list    |        |
+| tag                                  | description                                                                                                                                                                                 | type                  | detail |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------ |
+| ```<DomainesDePathologiesFR>```      | ...                                                                                                                                                                                         | ```<value>``` list    |        |
+| ```<DomainesDePathologiesEN>```      | ...                                                                                                                                                                                         | ```<value>``` list    |        |
+| ```<CovidFR>```                      | Study related to Covid-19                                                                                                                                                                   | categorical (Oui/Non) |        |
+| ```<CovidEN>```                      | ...                                                                                                                                                                                         | categorical (Yes/No)  |        |
+| ```<PathologiesFR>```                | Study related to Covid-19                                                                                                                                                                   | text                  |        |
+| ```<PathologiesEN>```                | ...                                                                                                                                                                                         | text                  |        |
+| ```<DeterminantsDeSanteFR>```        | ...                                                                                                                                                                                         | ```<value>``` list    |        |
+| ```<DeterminantsDeSanteEN>```        | ...                                                                                                                                                                                         | ```<value>``` list    |        |
+| ```<DomainesMedicauxPrecisionsFR>``` | ...                                                                                                                                                                                         | text                  |        |
+| ```<DomainesMedicauxPrecisionsEN>``` | ...                                                                                                                                                                                         | text                  |        |
+| ``` <MotsClesFR>```                  | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database. | ```<value>``` list    |        |
+| ``` <MotsClesEN>```                  | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database. | ```<value>``` list    |        |
 
 
 #### General - ResponsableScientifique
+
+Person(s) assuming scientific responsibility for the database. This person (or persons) agrees to be contacted for any questions related to the database; if necessary, it is recommended to designate an additional contact person.
 
 | tag                                | description | type               | detail |
 | ---------------------------------- | ----------- | ------------------ | ------ |
@@ -91,39 +93,45 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 ##### General - ResponsableScientifique - ResponsableScientifiqueFR
 
-| tag                             | description | type | detail |
-| ------------------------------- | ----------- | ---- | ------ |
-| ``` <NomResponsable>```         | ...         | text |        |
-| ``` <PrenomResponsable>```      | ...         | text |        |
-| ``` <AdresseResponsable>```     | ...         | text |        |
-| ``` <TelephoneResponsable>```   | ...         | text |        |
-| ``` <MailResponsable>```        | ...         | text |        |
-| ``` <LaboratoireResponsable>``` | ...         | text |        |
-| ``` <OrganismeResponsable>```   | ...         | text |        |
+| tag                             | description                  | type |
+| ------------------------------- | ---------------------------- | ---- |
+| ``` <NomResponsable>```         | Name of the person in charge | text |
+| ``` <PrenomResponsable>```      | Family name                  | text |
+| ``` <AdresseResponsable>```     | Address                      | text |
+| ``` <TelephoneResponsable>```   | Telephone number             | text |
+| ``` <MailResponsable>```        | E-mail                       | text |
+| ``` <LaboratoireResponsable>``` | Laboratory name              | text |
+| ``` <OrganismeResponsable>```   | Institution name             | text |
 
 ##### General - ResponsableScientifique - ResponsableScientifiqueEN
 
-| tag                             | description | type | detail |
-| ------------------------------- | ----------- | ---- | ------ |
-| ``` <NomResponsable>```         | ...         | text |        |
-| ``` <PrenomResponsable>```      | ...         | text |        |
-| ``` <AdresseResponsable>```     | ...         | text |        |
-| ``` <TelephoneResponsable>```   | ...         | text |        |
-| ``` <MailResponsable>```        | ...         | text |        |
-| ``` <LaboratoireResponsable>``` | ...         | text |        |
-| ``` <OrganismeResponsable>```   | ...         | text |        |
+| tag                             | description                  | type |
+| ------------------------------- | ---------------------------- | ---- |
+| ``` <NomResponsable>```         | Name of the person in charge | text |
+| ``` <PrenomResponsable>```      | Family name                  | text |
+| ``` <AdresseResponsable>```     | Address                      | text |
+| ``` <TelephoneResponsable>```   | Telephone number             | text |
+| ``` <MailResponsable>```        | E-mail                       | text |
+| ``` <LaboratoireResponsable>``` | Laboratory name              | text |
+| ``` <OrganismeResponsable>```   | Institution name             | text |
 
 
 #### General - Collaborations
 
-| tag                                        | description | type | detail |
-| ------------------------------------------ | ----------- | ---- | ------ |
-| ``` <PartenariatsEtReseauxFR>```           | ...         | ?    |        |
-| ``` <PartenariatsEtReseauxFR>```           | ...         | ?    |        |
-| ``` <PartenariatsEtReseauxPrecisionsFR>``` | ...         | ?    |        |
-| ``` <PartenariatsEtReseauxPrecisionsEN>``` | ...         | ?    |        |
-| ``` <AutresCollaborationsFR>```            | ...         | ?    |        |
-| ``` <AutresCollaborationsEN>```            | ...         | ?    |        |
+Participation à des projets, des réseaux, des consortiums
+
+Names of the relevant projects, networks, consortia.
+
+| tag                                                                                                                  | description                                          | type |
+| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ---- |
+| ``` <PartenariatsEtReseauxFR>```                                                                                     |
+| Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Oui/Non)                                |
+| ``` <PartenariatsEtReseauxFR>```                                                                                     |
+| Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Yes/No)                                 |
+| ``` <PartenariatsEtReseauxPrecisionsFR>```                                                                           | Names of the relevant projects, networks, consortia. | ?    |
+| ``` <PartenariatsEtReseauxPrecisionsEN>```                                                                           | Names of the relevant projects, networks, consortia. | ?    |
+| ``` <AutresCollaborationsFR>```                                                                                      | Other collaborations related to the database.                                 | ?    |
+| ``` <AutresCollaborationsEN>```                                                                                      | Other collaborations related to the database.                                  | ?    |
 
 
 #### General - Financements
