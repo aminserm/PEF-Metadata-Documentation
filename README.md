@@ -13,7 +13,7 @@
 | ```<ValorisationEtAcces>``` | ....                                                  | [link](#valorisationetacces) |
 
 
-### Metadonnées  
+### Metadonnees  
 
 | tag                                 | description                                | type        | detail |
 | ----------------------------------- | ------------------------------------------ | ----------- | ------ |
@@ -59,20 +59,20 @@
 
 #### General - ThematiquesGenerales
 
-| tag                                   | description | type                  | detail |
-| ------------------------------------- | ----------- | --------------------- | ------ |
-| ``` <DomainesDePathologiesFR>```      | ...         | ```<value>``` list    |        |
-| ``` <DomainesDePathologiesEN>```      | ...         | ```<value>``` list    |        |
-| ``` <CovidFR>```                      | ...         | categorical (Oui/Non) |        |
-| ``` <CovidEN>```                      | ...         | categorical (Yes/No)  |        |
-| ``` <PathologiesFR>```                | ...         | text                  |        |
-| ``` <PathologiesEN>```                | ...         | text                  |        |
-| ``` <DeterminantsDeSanteFR>```        | ...         | ```<value>``` list    |        |
-| ``` <DeterminantsDeSanteEN>```        | ...         | ```<value>``` list    |        |
-| ``` <DomainesMedicauxPrecisionsFR>``` | ...         | text                  |        |
-| ``` <DomainesMedicauxPrecisionsEN>``` | ...         | text                  |        |
-| ``` <MotsClesFR>```                   | ...         | ```<value>``` list    |        |
-| ``` <MotsClesEN>```                   | ...         | ```<value>``` list    |        |
+| tag                                   | description                                                                                                                                                                                 | type                  | detail |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------ |
+| ``` <DomainesDePathologiesFR>```      | ...                                                                                                                                                                                         | ```<value>``` list    |        |
+| ``` <DomainesDePathologiesEN>```      | ...                                                                                                                                                                                         | ```<value>``` list    |        |
+| ``` <CovidFR>```                      | ...                                                                                                                                                                                         | categorical (Oui/Non) |        |
+| ``` <CovidEN>```                      | ...                                                                                                                                                                                         | categorical (Yes/No)  |        |
+| ``` <PathologiesFR>```                | ...                                                                                                                                                                                         | text                  |        |
+| ``` <PathologiesEN>```                | ...                                                                                                                                                                                         | text                  |        |
+| ``` <DeterminantsDeSanteFR>```        | ...                                                                                                                                                                                         | ```<value>``` list    |        |
+| ``` <DeterminantsDeSanteEN>```        | ...                                                                                                                                                                                         | ```<value>``` list    |        |
+| ``` <DomainesMedicauxPrecisionsFR>``` | ...                                                                                                                                                                                         | text                  |        |
+| ``` <DomainesMedicauxPrecisionsEN>``` | ...                                                                                                                                                                                         | text                  |        |
+| ``` <MotsClesFR>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database. | ```<value>``` list    |        |
+| ``` <MotsClesEN>```                   | Words or expressions that have particular importance for the indexing and characterization of the database or survey. Keywords help improve the positioning and visibility of the database. | ```<value>``` list    |        |
 
 
 #### General - ResponsableScientifique
@@ -270,4 +270,85 @@
 | ``` <Donnees>```                 | ...         | tag  |        |
 | ``` <Modalites>```               | ...         | tag  |        |
 
+#### Collecte - Dates
+
+| tag                            | description | type | detail |
+| ------------------------------ | ----------- | ---- | ------ |
+| ``` <AnneePremierRecueilFR>``` | ...         | text |        |
+| ``` <AnneePremierRecueilEN>``` | ...         | text |        |
+| ``` <AnneeDernierRecueilFR>``` | ...         | text |        |
+| ``` <AnneeDernierRecueilEN>``` | ...         | text |        |
+
+#### Collecte - TailleDeLaBaseDeDonnees
+
+| tag                         | description | type               | detail |
+| --------------------------- | ----------- | ------------------ | ------ |
+| ``` <TailleBaseFR>```       | ...         | ```<value>``` list |        |
+| ``` <TailleBaseEN>```       | ...         | ```<value>``` list |        |
+| ``` <TailleBaseDetailFR>``` | ...         | text               |        |
+| ``` <TailleBaseDetailEN>``` | ...         | text               |        |
+
+#### Collecte - Donnees
+
+| tag                                         | description | type               | detail |
+| ------------------------------------------- | ----------- | ------------------ | ------ |
+| ``` <EnActiviteFR>```                       | ...         | ```<value>``` list |        |
+| ``` <EnActiviteEN>```                       | ...         | ```<value>``` list |        |
+| ``` <TypeDonneesRecueilliesFR>```           | ...         | ```<value>``` list |        |
+| ``` <TypeDonneesRecueilliesEN>```           | ...         | ```<value>``` list |        |
+| ``` <DonneesCliniquesFR>```                 | ...         | ```<value>``` list |        |
+| ``` <DonneesCliniquesEN>```                 | ...         | ```<value>``` list |        |
+| ``` <DonneesCliniquesPrecisionsFR>```       | ...         | ?                  |        |
+| ``` <DonneesCliniquesPrecisionsEN>```       | ...         | ?                  |        |
+| ``` <DonneesDeclarativesFR>```              | ...         | ```<value>``` list |        |
+| ``` <DonneesDeclarativesEN>```              | ...         | ```<value>``` list |        |
+| ``` <DonneesDeclarativesPrecisionsFR>```    | ...         | ?                  |        |
+| ``` <DonneesDeclarativesPrecisionsEN>```    | ...         | ?                  |        |
+| ``` <DonneesParacliniquesPrecisionsFR>```   | ...         | ?                  |        |
+| ``` <DonneesParacliniquesPrecisionsEN>```   | ...         | ?                  |        |
+| ``` <DonneesBiologiquesPrecisionsFR>```     | ...         | ?                  |        |
+| ``` <DonneesBiologiquesPrecisionsEN>```     | ...         | ?                  |        |
+| ``` <DonneesAdministrativesPrecisionsFR>``` | ...         | text               |        |
+| ``` <DonneesAdministrativesPrecisionsEN>``` | ...         | text               |        |
+| ``` <DonneesCoutPrecisionsFR>```            | ...         | ?                  |        |
+| ``` <DonneesCoutPrecisionsEN>```            | ...         | ?                  |        |
+| ``` <DonneesUtilitePrecisionsFR>```         | ...         | ?                  |        |
+| ``` <DonneesUtilitePrecisionsEN>```         | ...         | ?                  |        |
+| ``` <BiothequeFR>```                        | ...         | text               |        |
+| ``` <BiothequeEN>```                        | ...         | text               |        |
+| ``` <ContenuBiothequeFR>```                 | ...         | ```<value>``` list |        |
+| ``` <ContenuBiothequeEN>```                 | ...         | ```<value>``` list |        |
+| ``` <BiothequePrecisionsFR>```              | ...         | ?                  |        |
+| ``` <BiothequePrecisionsEN>```              | ...         | ?                  |        |
+| ``` <ParametreDeSanteFR>```                 | ...         | ```<value>``` list |        |
+| ``` <ParametreDeSanteEN>```                 | ...         | ```<value>``` list |        |
+| ``` <ConsommationDeSoinsFR>```              | ...         | ```<value>``` list |        |
+| ``` <ConsommationDeSoinsEN>```              | ...         | ```<value>``` list |        |
+| ``` <QualiteDeVieSantePercueFR>```          | ...         | ?                  |        |
+| ``` <QualiteDeVieSantePercueEN>```          | ...         | ?                  |        |
+| ``` <AutreParametreObserveFR>```            | ...         | ?                  |        |
+| ``` <AutreParametreObserveEN>```            | ...         | ?                  |        |
+
+#### Collecte - Modalites
+
+| tag                                         | description | type                  | detail |
+| ------------------------------------------- | ----------- | --------------------- | ------ |
+| ``` <ModalitesDeRecueilFR>```               | ...         | text                  |        |
+| ``` <ModalitesDeRecueilEN>```               | ...         | text                  |        |
+| ``` <NomenclatureFR>```                     | ...         | ?                     |        |
+| ``` <NomenclatureEN>```                     | ...         | ?                     |        |
+| ``` <ProcedureQualiteFR>```                 | ...         | ?                     |        |
+| ``` <ProcedureQualiteEN>```                 | ...         | ?                     |        |
+| ``` <SuiviDesParticipantsFR>```             | ...         | categorical (Oui/Non) |        |
+| ``` <SuiviDesParticipantsEN>```             | ...         | categorical (Yes/No)  |        |
+| ``` <SuiviDesParticipantsModalitesFR>```    | ...         | ```<value>``` list    |        |
+| ``` <SuiviDesParticipantsModalitesEN>```    | ...         | ```<value>``` list    |        |
+| ``` <DetailDuSuiviFR>```                    | ...         | ?                     |        |
+| ``` <DetailDuSuiviEN>```                    | ...         | ?                     |        |
+| ``` <SuiviDesParticipantsCimFR>```          | ...         | ?                     |        |
+| ``` <SuiviDesParticipantsCimEN>```          | ...         | ?                     |        |
+| ``` <SourcesAdministrativesFR>```           | ...         | categorical (Oui/Non) |        |
+| ``` <SourcesAdministrativesEN>```           | ...         | categorical (Yes/No)  |        |
+| ``` <SourcesAdministrativesPrecisionsFR>``` | ...         | text                  |        |
+| ``` <SourcesAdministrativesPrecisionsEN>``` | ...         | text                  |        |
 
