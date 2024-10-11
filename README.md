@@ -10,13 +10,13 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 ## FichePortailEpidemiologieFrance
 
-| tag                         | description                                           | detail                       |
-| --------------------------- | ----------------------------------------------------- | ---------------------------- |
-| ```<Metadonnees>```         | Internal metadata of the resource in the  PEF catalog | [link](#metadonnees)         |
-| ```<General>```             | General                                               | [link](#general)             |
-| ```<Caracteristiques>```    | Caracteristiques                                      | [link](#caracteristiques)    |
-| ```<Collecte>```            | Collecte                                              | [link](#collecte)            |
-| ```<ValorisationEtAcces>``` | Valorisation et accès                                 | [link](#valorisationetacces) |
+| tag                         | description           | detail                       |
+| --------------------------- | --------------------- | ---------------------------- |
+| ```<Metadonnees>```         | PEF catalog metadata  | [link](#metadonnees)         |
+| ```<General>```             | General               | [link](#general)             |
+| ```<Caracteristiques>```    | Caracteristiques      | [link](#caracteristiques)    |
+| ```<Collecte>```            | Collecte              | [link](#collecte)            |
+| ```<ValorisationEtAcces>``` | Valorisation et accès | [link](#valorisationetacces) |
 
 
 ### Metadonnees  
@@ -25,19 +25,17 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 | ----------------------------------- | ------------------------------------------ | ----------- |
 | ```<ID>```                          | ID of the reference within the PEF catalog | id          |
 | ```<VersionFR>```                   | Version de la fiche                        | code        |
-| ```<VersionEN>```                   | ....                                       | code        |
+| ```<VersionEN>```                   | Version of the reference                   | code        |
 | ```<DateCreationFicheFR>```         | Date creation de la fiche                  | date        |
-| ```<DateCreationFicheEN>```         | ....                                       | date        |
+| ```<DateCreationFicheEN>```         | Date of reference creation                 | date        |
 | ```<StatutFicheFR>```               | Statut de la fiche                         | categorical |
-| ```<StatutFicheEN>```               | ....                                       | categorical |
+| ```<StatutFicheEN>```               | Reference status                           | categorical |
 | ```<DateChangementStatutFicheFR>``` | Date changement statut de la fiche         | date        |
-| ```<DateChangementStatutFicheEN>``` | ....                                       | date        |
+| ```<DateChangementStatutFicheEN>``` | Date of reference status change            | date        |
 | ```<Auteur>```                      | Auteur de la fiche                         | text        |
 | ```<UrlFicheFR>```                  | Url de la fiche                            | url         |
-| ```<UrlFicheEN>```                  | ....                                       | url         |
+| ```<UrlFicheEN>```                  | Reference URL                              | url         |
 | ```<UrlXml>```                      | Url de téléchargement de la fiche XML      | url         |
-
-
 
 ### General
 
