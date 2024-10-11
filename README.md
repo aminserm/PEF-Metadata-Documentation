@@ -21,21 +21,21 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 ### Metadonnees  
 
-| tag                                 | description                                | type        | detail |
-| ----------------------------------- | ------------------------------------------ | ----------- | ------ |
-| ```<ID>```                          | ID of the reference within the PEF catalog | id          |        |
-| ```<VersionFR>```                   | ....                                       | code        |        |
-| ```<VersionEN>```                   | ....                                       | code        |        |
-| ```<DateCreationFicheFR>```         | ....                                       | date        |        |
-| ```<DateCreationFicheEN>```         | ....                                       | date        |        |
-| ```<StatutFicheFR>```               | ....                                       | categorical |        |
-| ```<StatutFicheEN>```               | ....                                       | categorical |        |
-| ```<DateChangementStatutFicheFR>``` | ....                                       | date        |        |
-| ```<DateChangementStatutFicheEN>``` | ....                                       | date        |        |
-| ```<Auteur>```                      | ....                                       | text        |        |
-| ```<UrlFicheFR>```                  | ....                                       | url         |        |
-| ```<UrlFicheEN>```                  | ....                                       | url         |        |
-| ```<UrlXml>```                      | ....                                       | url         |        |
+| tag                                 | description                                | type        |
+| ----------------------------------- | ------------------------------------------ | ----------- |
+| ```<ID>```                          | ID of the reference within the PEF catalog | id          |
+| ```<VersionFR>```                   | Version de la fiche                        | code        |
+| ```<VersionEN>```                   | ....                                       | code        |
+| ```<DateCreationFicheFR>```         | Date creation de la fiche                  | date        |
+| ```<DateCreationFicheEN>```         | ....                                       | date        |
+| ```<StatutFicheFR>```               | Statut de la fiche                         | categorical |
+| ```<StatutFicheEN>```               | ....                                       | categorical |
+| ```<DateChangementStatutFicheFR>``` | Date changement statut de la fiche         | date        |
+| ```<DateChangementStatutFicheEN>``` | ....                                       | date        |
+| ```<Auteur>```                      | Auteur de la fiche                         | text        |
+| ```<UrlFicheFR>```                  | Url de la fiche                            | url         |
+| ```<UrlFicheEN>```                  | ....                                       | url         |
+| ```<UrlXml>```                      | Url de téléchargement de la fiche XML      | url         |
 
 
 
@@ -376,9 +376,9 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 | tag                         | description                                           | type               | detail                                                             |
 | --------------------------- | ----------------------------------------------------- | ------------------ | ------------------------------------------------------------------ |
 | ```<PieceJointeFR>```       | Liste des publications relatives à la base de données | ```<value>``` list | [link](#valorisationetacces---valorisationetacces---piecejointefr) |
-| ```<PieceJointeEN>```       |                                                       | ```<value>``` list | [link](#valorisationetacces---valorisationetacces---piecejointeen)                                                           |
+| ```<PieceJointeEN>```       | List of publications related to the database          | ```<value>``` list | [link](#valorisationetacces---valorisationetacces---piecejointeen) |
 | ```<AutreValorisationFR>``` | Autres informations                                   | text               |                                                                    |
-| ```<AutreValorisationEN>``` |                                                       | text               |                                                                    |
+| ```<AutreValorisationEN>``` | Other information                                     | text               |                                                                    |
 
 ##### ValorisationEtAcces - ValorisationEtAcces - PieceJointeFR
 
