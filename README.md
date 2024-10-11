@@ -342,25 +342,69 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 
 #### Collecte - Modalites
 
-| tag                                         | complete name                                 | type                  |
-| ------------------------------------------- | --------------------------------------------- | --------------------- |
-| ``` <ModalitesDeRecueilFR>```               | Mode de recueil des données                   | text                  |
-| ``` <ModalitesDeRecueilEN>```               | Data collection method                        | text                  |
-| ``` <NomenclatureFR>```                     | Nomenclatures employées                       | text                  |
-| ``` <NomenclatureEN>```                     | Used nomenclatures                            | text                  |
-| ``` <ProcedureQualiteFR>```                 | Procédures qualité utilisées                  | text                  |
-| ``` <ProcedureQualiteEN>```                 | Quality procedures used                       | text                  |
-| ``` <SuiviDesParticipantsFR>```             | Suivi des participants                        | categorical (Oui/Non) |
-| ``` <SuiviDesParticipantsEN>```             | Follow-up of participants                     | categorical (Yes/No)  |
-| ``` <SuiviDesParticipantsModalitesFR>```    | Modalités de suivi des participants           | ```<value>``` list    |
-| ``` <SuiviDesParticipantsModalitesEN>```    | Follow-up modalities for participants         | ```<value>``` list    |
-| ``` <DetailDuSuiviFR>```                    | Détail du suivi                               | text                  |
-| ``` <DetailDuSuiviEN>```                    | Follow-up details                             | text                  |
-| ``` <SuiviDesParticipantsCimFR>```          | Pathologie suivies                            | ```<value>``` list    |
-| ``` <SuiviDesParticipantsCimEN>```          | Pathologies followed                          | ```<value>``` list    |
-| ``` <SourcesAdministrativesFR>```           | Appariement avec des sources administratives  | categorical (Oui/Non) |
-| ``` <SourcesAdministrativesEN>```           | Matching with administrative sources          | categorical (Yes/No)  |
-| ``` <SourcesAdministrativesPrecisionsFR>``` | Sources administratives appariées, précisions | text                  |
-| ``` <SourcesAdministrativesPrecisionsEN>``` | Matched administrative sources, details       | text                  |
+| tag                                        | complete name                                 | type                  |
+| ------------------------------------------ | --------------------------------------------- | --------------------- |
+| ```<ModalitesDeRecueilFR>```               | Mode de recueil des données                   | text                  |
+| ```<ModalitesDeRecueilEN>```               | Data collection method                        | text                  |
+| ```<NomenclatureFR>```                     | Nomenclatures employées                       | text                  |
+| ```<NomenclatureEN>```                     | Used nomenclatures                            | text                  |
+| ```<ProcedureQualiteFR>```                 | Procédures qualité utilisées                  | text                  |
+| ```<ProcedureQualiteEN>```                 | Quality procedures used                       | text                  |
+| ```<SuiviDesParticipantsFR>```             | Suivi des participants                        | categorical (Oui/Non) |
+| ```<SuiviDesParticipantsEN>```             | Follow-up of participants                     | categorical (Yes/No)  |
+| ```<SuiviDesParticipantsModalitesFR>```    | Modalités de suivi des participants           | ```<value>``` list    |
+| ```<SuiviDesParticipantsModalitesEN>```    | Follow-up modalities for participants         | ```<value>``` list    |
+| ```<DetailDuSuiviFR>```                    | Détail du suivi                               | text                  |
+| ```<DetailDuSuiviEN>```                    | Follow-up details                             | text                  |
+| ```<SuiviDesParticipantsCimFR>```          | Pathologie suivies                            | ```<value>``` list    |
+| ```<SuiviDesParticipantsCimEN>```          | Pathologies followed                          | ```<value>``` list    |
+| ```<SourcesAdministrativesFR>```           | Appariement avec des sources administratives  | categorical (Oui/Non) |
+| ```<SourcesAdministrativesEN>```           | Matching with administrative sources          | categorical (Yes/No)  |
+| ```<SourcesAdministrativesPrecisionsFR>``` | Sources administratives appariées, précisions | text                  |
+| ```<SourcesAdministrativesPrecisionsEN>``` | Matched administrative sources, details       | text                  |
 
 
+### ValorisationEtAcces
+
+| tag                         | description           | type | detail                                             |
+| --------------------------- | --------------------- | ---- | -------------------------------------------------- |
+| ```<ValorisationEtAcces>``` | Valorisation et accès | tag  | [link](#valorisationetacces---valorisationetacces) |
+| ```<Acces>```               | Accès                 | tag  | [link](#valorisationetacces---acces)               |
+
+#### ValorisationEtAcces - ValorisationEtAcces
+
+| tag                         | description                                           | type               | detail                                                             |
+| --------------------------- | ----------------------------------------------------- | ------------------ | ------------------------------------------------------------------ |
+| ```<PieceJointeFR>```       | Liste des publications relatives à la base de données | ```<value>``` list | [link](#valorisationetacces---valorisationetacces---piecejointefr) |
+| ```<PieceJointeEN>```       |                                                       | ```<value>``` list | [link](#valorisationetacces---valorisationetacces---piecejointeen)                                                           |
+| ```<AutreValorisationFR>``` | Autres informations                                   | text               |                                                                    |
+| ```<AutreValorisationEN>``` |                                                       | text               |                                                                    |
+
+##### ValorisationEtAcces - ValorisationEtAcces - PieceJointeFR
+
+| tag                 | description           | type |
+| ------------------- | --------------------- | ---- |
+| ```<Fichier>```     | Lien vers le document | text |
+| ```<Description>``` | Description           | text |
+
+##### ValorisationEtAcces - ValorisationEtAcces - PieceJointeEN
+
+| tag                 | description           | type |
+| ------------------- | --------------------- | ---- |
+| ```<Fichier>```     | Lien vers le document | text |
+| ```<Description>``` | Description           | text |
+
+#### ValorisationEtAcces - Acces
+
+| tag                                 | description                                                                                                      | type |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---- |
+| ```<SiteWebFR>```                   | Lien vers le document                                                                                            | text |
+| ```<SiteWebEN>```                   | Link to the document                                                                                             | text |
+| ```<ExistenceDocumentCodageFR>```   | Existence d’un document qui répertorie les variables et les modalités de codage:                                 | text |
+| ```<ExistenceDocumentCodageEN>```   | Existence of a document listing the variables and coding methods                                                 | text |
+| ```<ModalitesAccesFR>```            | Charte d'accès aux données (convention de mise à disposition, format de données et délais de mise à disposition) | text |
+| ```<ModalitesAccesEN>```            | Data access charter (data availability agreement, data format, and delivery timelines)                           | text |
+| ```<AccesDonneesAgregeesFR>```      | Accès aux données agrégées                                                                                       | text |
+| ```<AccesDonneesAgregeesEN>```      | Access to aggregated data                                                                                        | text |
+| ```<AccesDonneesIndividuellesFR>``` | Accès aux données individuelles                                                                                  | text |
+| ```<AccesDonneesIndividuellesEN>``` | Access to individual data                                                                                        | text |
