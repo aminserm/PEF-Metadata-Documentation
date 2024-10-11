@@ -47,7 +47,7 @@ Other metadata descriptions were inferred from the metadata editor accessible by
 | ```<ThematiquesGenerales>```         | ....                                                                                                                                                                                                                                 | code        | [link](#general---thematiquesgenerales)         |
 | ```<ResponsableScientifique>```      | Person(s) assuming scientific responsibility for the database. This person (or persons) agrees to be contacted for any questions related to the database; if necessary, it is recommended to designate an additional contact person. | code        | [link](#general---responsablescientifique)      |
 | ```<Collaborations>```               | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.).                                                                                                                 | date        | [link](#general---collaborations)               |
-| ```<Financements>```                 | ....                                                                                                                                                                                                                                 | date        | [link](#general---financements)                 |
+| ```<Financements>```                 | Statut des sources de financement ayant permis de constituer la base de données ainsi que celles contribuant à son maintien et/ou à son développement.                                                                               | date        | [link](#general---financements)                 |
 | ```<GouvernanceDeLaBaseDeDonnees>``` | ....                                                                                                                                                                                                                                 | categorical | [link](#general---gouvernancedelabasededonnees) |
 | ```<ContactSupplementaire>```        | ....                                                                                                                                                                                                                                 | categorical | [link](#general---contactsupplementaire)        |
 
@@ -126,45 +126,45 @@ Names of the relevant projects, networks, consortia.
 | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | ``` <PartenariatsEtReseauxFR>```           | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Oui/Non) |
 | ``` <PartenariatsEtReseauxFR>```           | Participation or non-participation in discussions and work of consortia or projects (e.g., European projects, etc.). | categorical (Yes/No)  |
-| ``` <PartenariatsEtReseauxPrecisionsFR>``` | Names of the relevant projects, networks, consortia.                                                                 | ?                     |
-| ``` <PartenariatsEtReseauxPrecisionsEN>``` | Names of the relevant projects, networks, consortia.                                                                 | ?                     |
-| ``` <AutresCollaborationsFR>```            | Other collaborations related to the database.                                                                        | ?                     |
-| ``` <AutresCollaborationsEN>```            | Other collaborations related to the database.                                                                        | ?                     |
+| ``` <PartenariatsEtReseauxPrecisionsFR>``` | Names of the relevant projects, networks, consortia.                                                                 | text                  |
+| ``` <PartenariatsEtReseauxPrecisionsEN>``` | Names of the relevant projects, networks, consortia.                                                                 | text                  |
+| ``` <AutresCollaborationsFR>```            | Other collaborations related to the database.                                                                        | text                  |
+| ``` <AutresCollaborationsEN>```            | Other collaborations related to the database.                                                                        | text                  |
 
 
 #### General - Financements
 
-| tag                               | description | type | detail |
-| --------------------------------- | ----------- | ---- | ------ |
-| ``` <TypeDeFinancementsFR>```     | ...         | ?    |        |
-| ``` <TypeDeFinancementsEN>```     | ...         | ?    |        |
-| ``` <FinancementsPrecisionsFR>``` | ...         | ?    |        |
-| ``` <FinancementsPrecisionsEN>``` | ...         | ?    |        |
+| tag                               | description                                                                                                                          | type                               |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| ``` <TypeDeFinancementsFR>```     | Status of the funding sources.                                                                                                       | categorical (Public/Privé/Mixte)   |
+| ``` <TypeDeFinancementsEN>```     | Status of the funding sources.                                                                                                       | categorical (Public/Private/Mixed) |
+| ``` <FinancementsPrecisionsFR>``` | Funding sources that enabled the establishment of the database, as well as those contributing to its maintenance and/or development. | text                               |
+| ``` <FinancementsPrecisionsEN>``` | Funding sources that enabled the establishment of the database, as well as those contributing to its maintenance and/or development. | text                               |
 
 #### General - GouvernanceDeLaBaseDeDonnees
 
-| tag                                   | description | type                  | detail |
-| ------------------------------------- | ----------- | --------------------- | ------ |
-| ``` <OrganisationFR>```               | ...         | ```<value>``` list    |        |
-| ``` <OrganisationEN>```               | ...         | ```<value>``` list    |        |
-| ``` <ExistenceDeComiteFR>```          | ...         | categorical (Oui/Non) |        |
-| ``` <ExistenceDeComiteEN>```          | ...         | categorical (Yes/No)  |        |
-| ``` <LabellisationsEtExpertisesFR>``` | ...         | ?                     |        |
-| ``` <LabellisationsEtExpertisesEN>``` | ...         | ?                     |        |
+| tag                                   | description                                                                                                                                                            | type                  | detail                                                           |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ---------------------------------------------------------------- |
+| ``` <OrganisationFR>```               | Nom et statut de l’institution qui est le porteur et le responsable - au sens juridique - de la base de données ainsi que le statut correspondant à cette institution. | ```<value>``` list    | [link](#general---gouvernancedelabasededonnees---organisationfr) |
+| ``` <OrganisationEN>```               | Name and status of the institution that is the holder and legally responsible for the database, as well as the corresponding status of this institution.               | ```<value>``` list    | [link](#general---gouvernancedelabasededonnees---organisationen) |
+| ``` <ExistenceDeComiteFR>```          | Existence de comités scientifique ou de pilotage                                                                                                                       | categorical (Oui/Non) |                                                                  |
+| ``` <ExistenceDeComiteEN>```          | Existence of scientific or steering committees                                                                                                                         | categorical (Yes/No)  |                                                                  |
+| ``` <LabellisationsEtExpertisesFR>``` | Labellisations et évaluations de la base de données                                                                                                                    | text                  |                                                                  |
+| ``` <LabellisationsEtExpertisesEN>``` | Labeling and evaluations of the database                                                                                                                               | text                  |                                                                  |
 
 ##### General - GouvernanceDeLaBaseDeDonnees - OrganisationFR
 
-| tag                         | description | type | detail |
-| --------------------------- | ----------- | ---- | ------ |
-| ``` <Organisation>```       | ...         | text |        |
-| ``` <StatutOrganisation>``` | ...         | text |        |
+| tag                         | description                                 | type                                             |
+| --------------------------- | ------------------------------------------- | ------------------------------------------------ |
+| ``` <Organisation>```       | Organisation(s) responsable(s) ou promoteur | text                                             |
+| ``` <StatutOrganisation>``` | Statut de l’organisation                    | categorical (Secteur Public/Secteur Privé/Mixte) |
 
 ##### General - GouvernanceDeLaBaseDeDonnees - OrganisationEN
 
-| tag                         | description | type | detail |
-| --------------------------- | ----------- | ---- | ------ |
-| ``` <Organisation>```       | ...         | text |        |
-| ``` <StatutOrganisation>``` | ...         | text |        |
+| tag                         | description                             | type                                             |
+| --------------------------- | --------------------------------------- | ------------------------------------------------ |
+| ``` <Organisation>```       | Responsible organization(s) or promoter | text                                             |
+| ``` <StatutOrganisation>``` | Status of the organisation              | categorical (Public Sector/Private Sector/Mixed) |
 
 
 #### General - ContactSupplementaire
